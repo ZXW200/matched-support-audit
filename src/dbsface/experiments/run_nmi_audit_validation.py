@@ -1,4 +1,4 @@
-"""Unit-test the claim-control audit on synthetic known-positive and shortcut tasks.
+"""Unit-test the matched-support audit on synthetic known-positive and shortcut tasks.
 
 The purpose is methodological validation, not a new clinical result. Each task
 has a known signal-generating support. The same retrain-based support audit used

@@ -6,20 +6,20 @@
 
 | Status | Check | Detail |
 |---|---|---|
-| PASS | Figure1_MatchedSpatialReference: svg exists | Figure1_MatchedSpatialReference.svg; 42967 bytes |
-| PASS | Figure1_MatchedSpatialReference: pdf exists | Figure1_MatchedSpatialReference.pdf; 57526 bytes |
-| PASS | Figure1_MatchedSpatialReference: tiff exists | Figure1_MatchedSpatialReference.tiff; 1450962 bytes |
-| PASS | Figure1_MatchedSpatialReference: png exists | Figure1_MatchedSpatialReference.png; 284415 bytes |
+| PASS | Figure1_MatchedSpatialReference: svg exists | Figure1_MatchedSpatialReference.svg; 55026 bytes |
+| PASS | Figure1_MatchedSpatialReference: pdf exists | Figure1_MatchedSpatialReference.pdf; 58963 bytes |
+| PASS | Figure1_MatchedSpatialReference: tiff exists | Figure1_MatchedSpatialReference.tiff; 1501972 bytes |
+| PASS | Figure1_MatchedSpatialReference: png exists | Figure1_MatchedSpatialReference.png; 311550 bytes |
 | PASS | Figure1_MatchedSpatialReference: PNG dimensions | observed=(2161, 1748); expected=(2161, 1748) |
-| PASS | Figure1_MatchedSpatialReference: PNG nonblank | pixel_sd=30.83; nonwhite=0.123 |
+| PASS | Figure1_MatchedSpatialReference: PNG nonblank | pixel_sd=31.69; nonwhite=0.113 |
 | PASS | Figure1_MatchedSpatialReference: PNG resolution | dpi=(299.9994, 299.9994) |
 | PASS | Figure1_MatchedSpatialReference: TIFF dimensions | observed=(4322, 3496); expected=(4323, 3496) |
 | PASS | Figure1_MatchedSpatialReference: TIFF resolution | dpi=(600.0, 600.0) |
-| PASS | Figure1_MatchedSpatialReference: TIFF nonblank | pixel_sd=31.52; nonwhite=0.119 |
+| PASS | Figure1_MatchedSpatialReference: TIFF nonblank | pixel_sd=32.41; nonwhite=0.109 |
 | PASS | Figure1_MatchedSpatialReference: PDF page count | pages=1 |
 | PASS | Figure1_MatchedSpatialReference: PDF media box | observed=(518.74, 419.53) pt; expected=(518.74, 419.53) pt |
-| PASS | Figure1_MatchedSpatialReference: PDF searchable text | characters=1276 |
-| PASS | Figure1_MatchedSpatialReference: SVG editable text | text_elements=75; embedded_images=0 |
+| PASS | Figure1_MatchedSpatialReference: PDF searchable text | characters=1399 |
+| PASS | Figure1_MatchedSpatialReference: SVG editable text | text_elements=86; embedded_images=0 |
 | PASS | Figure1_MatchedSpatialReference: no private path in SVG | matched_patterns=[] |
 | PASS | Figure2_SyntheticOperatingExperiments: svg exists | Figure2_SyntheticOperatingExperiments.svg; 48340 bytes |
 | PASS | Figure2_SyntheticOperatingExperiments: pdf exists | Figure2_SyntheticOperatingExperiments.pdf; 62576 bytes |

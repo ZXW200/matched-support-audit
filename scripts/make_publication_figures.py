@@ -270,7 +270,7 @@ def make_figure_1(source_dir: Path, output_dir: Path) -> dict[str, object]:
     ax.text(0.02, 0.985, "Seven claims require different evidence", fontweight="bold", va="top")
     claims = [
         ("Discrimination", "Does any predictive signal exist?", TEAL),
-        ("Support specificity", "Does this support outperform equal-size controls?", BLUE),
+        ("Support specificity", "Does this support outperform equal-pixel controls?", BLUE),
         ("Anatomical location", "Is this coordinate exceptional among translations?", BLUE_DARK),
         ("Explanation faithfulness", "Does a fixed model rely on that support?", GREY_DARK),
         ("Shortcut profile", "Can non-target or coarse supports predict?", AMBER),
@@ -287,7 +287,7 @@ def make_figure_1(source_dir: Path, output_dir: Path) -> dict[str, object]:
     y_top = ys[1] + 0.05
     y_bottom = ys[2] - 0.05
     ax.plot([0.94, 0.97, 0.97, 0.94], [y_top, y_top, y_bottom, y_bottom], color=BLUE_DARK, linewidth=1.0)
-    ax.text(0.985, (y_top + y_bottom) / 2, "CCA", rotation=90, color=BLUE_DARK, va="center", ha="left", fontsize=6.2, fontweight="bold")
+    ax.text(0.985, (y_top + y_bottom) / 2, "Matched-support audit", rotation=90, color=BLUE_DARK, va="center", ha="left", fontsize=5.4, fontweight="bold")
     ax.text(0.02, 0.025, "A positive location margin is not a biomarker claim.", fontsize=5.4, color=WARM, fontweight="bold")
     ax.set_xlim(0, 1.08)
     ax.set_ylim(0, 1)
@@ -295,35 +295,55 @@ def make_figure_1(source_dir: Path, output_dir: Path) -> dict[str, object]:
     ax = fig.add_subplot(gs[0, 1])
     ax.set_axis_off()
     panel_label(ax, "b", x=-0.09, y=1.04)
-    ax.text(0.0, 1.0, "Conditional location estimand", fontweight="bold", va="top")
-    ax.add_patch(Rectangle((0.02, 0.13), 0.35, 0.67, facecolor=GREY_PALE, edgecolor=INK, linewidth=0.8))
-    for p in np.linspace(0.02, 0.37, 9):
-        ax.plot([p, p], [0.13, 0.80], color=GREY_LIGHT, linewidth=0.25, zorder=0)
-    for p in np.linspace(0.13, 0.80, 9):
-        ax.plot([0.02, 0.37], [p, p], color=GREY_LIGHT, linewidth=0.25, zorder=0)
-    ax.add_patch(Rectangle((0.12, 0.43), 0.16, 0.16, facecolor=WARM_LIGHT, edgecolor=WARM, linewidth=1.25))
-    translated = [(0.03, 0.15), (0.19, 0.18), (0.20, 0.62)]
-    for x, y in translated:
-        ax.add_patch(Rectangle((x, y), 0.16, 0.16, facecolor="none", edgecolor=BLUE, linewidth=0.9, linestyle=(0, (2, 1.5))))
-    ax.text(0.20, 0.61, "named", color=WARM, ha="center", va="bottom", fontsize=5.4, fontweight="bold")
-    ax.text(0.02, 0.08, "same shape and pixel count", fontsize=5.1, color=GREY_DARK)
-    arrow = FancyArrowPatch((0.40, 0.47), (0.55, 0.47), arrowstyle="-|>", mutation_scale=8, linewidth=0.8, color=INK)
-    ax.add_patch(arrow)
-    ax.add_patch(FancyBboxPatch((0.56, 0.35), 0.17, 0.24, boxstyle="round,pad=0.015,rounding_size=0.015", facecolor=BLUE_LIGHT, edgecolor=BLUE_DARK, linewidth=0.8))
-    ax.text(0.645, 0.49, "fresh fit", ha="center", va="center", fontweight="bold", fontsize=6.0)
-    ax.text(0.645, 0.415, "fixed D, phi,\nA and split", ha="center", va="center", fontsize=5.1, color=GREY_DARK)
-    arrow = FancyArrowPatch((0.74, 0.47), (0.84, 0.47), arrowstyle="-|>", mutation_scale=8, linewidth=0.8, color=INK)
-    ax.add_patch(arrow)
-    ax.text(0.86, 0.59, "AUROCnamed", color=WARM, fontweight="bold", fontsize=5.8)
-    ax.text(0.86, 0.47, "AUROCtrans,1...K", color=BLUE_DARK, fontweight="bold", fontsize=5.8)
-    ax.text(0.86, 0.35, "q97.5(trans)", color=INK, fontweight="bold", fontsize=5.8)
-    ax.text(0.55, 0.15, "Estimator retraining is part of the estimand;\nthis is not a fixed-model attribution test.", fontsize=5.2, color=GREY_DARK)
+    ax.text(0.0, 1.0, "Two matched-control questions", fontweight="bold", va="top")
+
+    def support_grid(x0: float, y0: float, kind: str) -> None:
+        width, height = 0.13, 0.22
+        cols = rows = 6
+        cell_w, cell_h = width / cols, height / rows
+        ax.add_patch(Rectangle((x0, y0), width, height, facecolor=GREY_PALE, edgecolor=INK, linewidth=0.65))
+        for index in range(1, cols):
+            x = x0 + index * cell_w
+            ax.plot([x, x], [y0, y0 + height], color=GREY_LIGHT, linewidth=0.18, zorder=0)
+        for index in range(1, rows):
+            y = y0 + index * cell_h
+            ax.plot([x0, x0 + width], [y, y], color=GREY_LIGHT, linewidth=0.18, zorder=0)
+        if kind == "named":
+            ax.add_patch(Rectangle((x0 + cell_w, y0 + 2 * cell_h), 3 * cell_w, 2 * cell_h, facecolor=WARM_LIGHT, edgecolor=WARM, linewidth=0.9))
+        elif kind == "scattered":
+            for col, row in ((0, 1), (1, 4), (2, 0), (3, 3), (4, 5), (5, 2)):
+                ax.add_patch(Rectangle((x0 + col * cell_w, y0 + row * cell_h), cell_w, cell_h, facecolor=BLUE_LIGHT, edgecolor=BLUE, linewidth=0.35))
+        elif kind == "translated":
+            ax.add_patch(Rectangle((x0 + 3 * cell_w, y0 + 3 * cell_h), 3 * cell_w, 2 * cell_h, facecolor="none", edgecolor=BLUE_DARK, linewidth=0.9, linestyle=(0, (2, 1.4))))
+        else:
+            raise ValueError(f"unknown support-grid kind: {kind}")
+
+    rows = [
+        (0.84, 0.50, 0.60, "2", "Support specificity", "equal-pixel\nscattered", "scattered q97.5", "support gate"),
+        (0.43, 0.10, 0.20, "3", "Anatomical location", "same-shape\ntranslated", "translated q97.5", "location margin"),
+    ]
+    for label_y, grid_y, centre_y, number, label, control_label, quantile_label, margin_label in rows:
+        ax.text(0.02, label_y, number, color=BLUE_DARK, fontsize=5.2, fontweight="bold", ha="center", va="center", bbox={"boxstyle": "circle,pad=0.17", "facecolor": WHITE, "edgecolor": BLUE_DARK, "linewidth": 0.7})
+        ax.text(0.055, label_y, label, fontsize=5.6, fontweight="bold", color=INK, ha="left", va="center")
+        ax.text(0.085, grid_y + 0.245, "named", fontsize=4.7, color=WARM, fontweight="bold", ha="center")
+        ax.text(0.245, grid_y + 0.245, control_label, fontsize=4.5, color=BLUE_DARK, fontweight="bold", ha="center", linespacing=0.9)
+        support_grid(0.02, grid_y, "named")
+        support_grid(0.18, grid_y, "scattered" if number == "2" else "translated")
+        ax.add_patch(FancyArrowPatch((0.33, centre_y), (0.43, centre_y), arrowstyle="-|>", mutation_scale=7, linewidth=0.7, color=INK))
+        ax.add_patch(FancyBboxPatch((0.44, centre_y - 0.085), 0.17, 0.17, boxstyle="round,pad=0.012,rounding_size=0.012", facecolor=BLUE_LIGHT, edgecolor=BLUE_DARK, linewidth=0.7))
+        ax.text(0.525, centre_y + 0.025, "fresh fit", ha="center", va="center", fontweight="bold", fontsize=5.4)
+        ax.text(0.525, centre_y - 0.035, "every support", ha="center", va="center", fontsize=4.6, color=GREY_DARK)
+        ax.add_patch(FancyArrowPatch((0.62, centre_y), (0.69, centre_y), arrowstyle="-|>", mutation_scale=7, linewidth=0.7, color=INK))
+        ax.text(0.71, centre_y + 0.055, "named AUROC", color=WARM, fontweight="bold", fontsize=5.1)
+        ax.text(0.71, centre_y - 0.005, quantile_label, color=BLUE_DARK, fontweight="bold", fontsize=5.1)
+        ax.text(0.71, centre_y - 0.065, margin_label, color=INK, fontsize=4.8)
+    ax.text(0.02, 0.015, "Fresh fit per support; data, representation, estimator and split fixed.", fontsize=4.7, color=GREY_DARK)
     ax.set_xlim(0, 1.04)
     ax.set_ylim(0, 1.02)
 
     ax = fig.add_subplot(gs[1, 1])
     panel_label(ax, "c", x=-0.09, y=1.08)
-    panel_title(ax, "Operational location margin")
+    panel_title(ax, "Location margin (claim 3)")
     illustrative = np.array([0.63, 0.66, 0.68, 0.69, 0.705, 0.72, 0.735, 0.75, 0.765, 0.78, 0.79, 0.80, 0.815, 0.825, 0.84, 0.85, 0.865, 0.875, 0.89, 0.905])
     jitter = np.array([0.02, -0.03, 0.04, -0.02, 0.0] * 4)
     ax.scatter(illustrative, jitter, s=8, facecolor=GREY_LIGHT, edgecolor=GREY, linewidth=0.35, zorder=2)

@@ -12,19 +12,20 @@ that its location is exceptional.
 - **a, Seven-claim ladder:** discrimination, support specificity, anatomical
   location, explanation faithfulness, shortcut profile, external evidence and
   clinical association.
-- **b, Conditional estimand:** fixed dataset, representation, estimator and
-  split; fresh training for the named rectangle and each translated rectangle.
+- **b, Two matched-control questions:** fixed dataset, representation,
+  estimator and split; fresh training for the named support, exact-size
+  scattered-pixel supports and same-shape translated rectangles.
 - **c, Location margin:** named AUROC minus translated-support q97.5. Label the
   threshold as an operational descriptive rule, not a p value.
 - **d, Evidence boundaries:** simulations, governance-limited PD-DBS images,
   YouTubePD clips and PARK participant features shown as non-equivalent tiers.
 
 Do not draw an arrow from positive margin to biomarker. Show fixed-model
-faithfulness as a separate test outside CCA.
+faithfulness as a separate test outside the matched-support audit.
 
 ## Figure 2 | Operating experiments distinguish simulated mechanisms
 
-**Conclusion:** one specified CCA implementation returns different decisions
+**Conclusion:** one specified audit implementation returns different decisions
 for injected local, border, distributed and misplaced signals.
 
 - **a, Null repetitions:** 2/30 detections with Wilson interval and raw count.
@@ -91,7 +92,7 @@ labels without validating raw-image location.
   PD-DBS, YouTubePD and PARK.
 - **d, Final boundary:** discrimination present; primary location support absent
   in the two raw-data applications; faithfulness, causality and clinical utility
-  not established by CCA.
+  not established by the audit.
 
 Do not compare the three AUROCs as estimates of a common endpoint.
 
@@ -116,4 +117,3 @@ Do not compare the three AUROCs as estimates of a common endpoint.
   `outputs/data_qc/` and `outputs/nmi_detector_geometry_audit/`.
 - Figure 4: `outputs/youtubepd_external_audit/`.
 - Figure 5: `outputs/external/ufnet_participant_level_benchmark/`.
-

@@ -6,10 +6,10 @@ This repository contains the public, executable branches and aggregate source
 data for *Matched-support auditing tests anatomical specificity in facial
 artificial intelligence*.
 
-The Claim-Control Audit (CCA) asks a conditional question: under a fixed
+The matched-support audit asks a conditional question: under a fixed
 dataset, representation, estimator and split, does a model retrained on a named
 support outperform models retrained on shape- and area-matched translations?
-CCA evaluates dataset-level regional predictive sufficiency. It is not a
+The audit evaluates dataset-level regional predictive sufficiency. It is not a
 fixed-model attribution method, a causal anatomy test or clinical validation.
 
 ## Public scope
@@ -102,7 +102,7 @@ fresh-source reconstruction sensitivity are under `reproduction/`.
 ## Citation
 
 Wang, Z. *Matched-support auditing tests anatomical specificity in facial
-artificial intelligence*, version 1.0.2. Zenodo (2026).
+artificial intelligence*, version 1.0.3. Zenodo (2026).
 [https://doi.org/10.5281/zenodo.21292743](https://doi.org/10.5281/zenodo.21292743).
 
 ## Third-party resources

@@ -7,22 +7,22 @@
     {
       "check": "Figure1_MatchedSpatialReference: svg exists",
       "passed": true,
-      "detail": "Figure1_MatchedSpatialReference.svg; 42967 bytes"
+      "detail": "Figure1_MatchedSpatialReference.svg; 55026 bytes"
     },
     {
       "check": "Figure1_MatchedSpatialReference: pdf exists",
       "passed": true,
-      "detail": "Figure1_MatchedSpatialReference.pdf; 57526 bytes"
+      "detail": "Figure1_MatchedSpatialReference.pdf; 58963 bytes"
     },
     {
       "check": "Figure1_MatchedSpatialReference: tiff exists",
       "passed": true,
-      "detail": "Figure1_MatchedSpatialReference.tiff; 1450962 bytes"
+      "detail": "Figure1_MatchedSpatialReference.tiff; 1501972 bytes"
     },
     {
       "check": "Figure1_MatchedSpatialReference: png exists",
       "passed": true,
-      "detail": "Figure1_MatchedSpatialReference.png; 284415 bytes"
+      "detail": "Figure1_MatchedSpatialReference.png; 311550 bytes"
     },
     {
       "check": "Figure1_MatchedSpatialReference: PNG dimensions",
@@ -32,7 +32,7 @@
     {
       "check": "Figure1_MatchedSpatialReference: PNG nonblank",
       "passed": true,
-      "detail": "pixel_sd=30.83; nonwhite=0.123"
+      "detail": "pixel_sd=31.69; nonwhite=0.113"
     },
     {
       "check": "Figure1_MatchedSpatialReference: PNG resolution",
@@ -52,7 +52,7 @@
     {
       "check": "Figure1_MatchedSpatialReference: TIFF nonblank",
       "passed": true,
-      "detail": "pixel_sd=31.52; nonwhite=0.119"
+      "detail": "pixel_sd=32.41; nonwhite=0.109"
     },
     {
       "check": "Figure1_MatchedSpatialReference: PDF page count",
@@ -67,12 +67,12 @@
     {
       "check": "Figure1_MatchedSpatialReference: PDF searchable text",
       "passed": true,
-      "detail": "characters=1276"
+      "detail": "characters=1399"
     },
     {
       "check": "Figure1_MatchedSpatialReference: SVG editable text",
       "passed": true,
-      "detail": "text_elements=75; embedded_images=0"
+      "detail": "text_elements=86; embedded_images=0"
     },
     {
       "check": "Figure1_MatchedSpatialReference: no private path in SVG",
