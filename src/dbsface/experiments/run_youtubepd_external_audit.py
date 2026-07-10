@@ -1,4 +1,4 @@
-"""Run the locked clip-level matched-support audit on preprocessed YouTubePD raw videos."""
+"""Run the locked clip-level CCA on preprocessed YouTubePD raw videos."""
 
 from __future__ import annotations
 
@@ -608,7 +608,7 @@ def main() -> int:
     )
 
     lines = [
-        "# YouTubePD external matched-support audit",
+        "# YouTubePD external Claim-Control Audit",
         "",
         f"- Prespecified preprocessing QC gate: **{prespecified_qc_gate}**.",
         f"- QC-passing clips: **{len(qc)}/{len(qc_all)}**.",

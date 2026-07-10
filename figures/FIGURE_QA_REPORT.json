@@ -7,22 +7,22 @@
     {
       "check": "Figure1_MatchedSpatialReference: svg exists",
       "passed": true,
-      "detail": "Figure1_MatchedSpatialReference.svg; 55026 bytes"
+      "detail": "Figure1_MatchedSpatialReference.svg; 55008 bytes"
     },
     {
       "check": "Figure1_MatchedSpatialReference: pdf exists",
       "passed": true,
-      "detail": "Figure1_MatchedSpatialReference.pdf; 58963 bytes"
+      "detail": "Figure1_MatchedSpatialReference.pdf; 58965 bytes"
     },
     {
       "check": "Figure1_MatchedSpatialReference: tiff exists",
       "passed": true,
-      "detail": "Figure1_MatchedSpatialReference.tiff; 1501972 bytes"
+      "detail": "Figure1_MatchedSpatialReference.tiff; 1491546 bytes"
     },
     {
       "check": "Figure1_MatchedSpatialReference: png exists",
       "passed": true,
-      "detail": "Figure1_MatchedSpatialReference.png; 311550 bytes"
+      "detail": "Figure1_MatchedSpatialReference.png; 307289 bytes"
     },
     {
       "check": "Figure1_MatchedSpatialReference: PNG dimensions",
@@ -32,7 +32,7 @@
     {
       "check": "Figure1_MatchedSpatialReference: PNG nonblank",
       "passed": true,
-      "detail": "pixel_sd=31.69; nonwhite=0.113"
+      "detail": "pixel_sd=31.58; nonwhite=0.112"
     },
     {
       "check": "Figure1_MatchedSpatialReference: PNG resolution",
@@ -52,7 +52,7 @@
     {
       "check": "Figure1_MatchedSpatialReference: TIFF nonblank",
       "passed": true,
-      "detail": "pixel_sd=32.41; nonwhite=0.109"
+      "detail": "pixel_sd=32.31; nonwhite=0.109"
     },
     {
       "check": "Figure1_MatchedSpatialReference: PDF page count",
@@ -67,7 +67,7 @@
     {
       "check": "Figure1_MatchedSpatialReference: PDF searchable text",
       "passed": true,
-      "detail": "characters=1399"
+      "detail": "characters=1381"
     },
     {
       "check": "Figure1_MatchedSpatialReference: SVG editable text",

@@ -4,13 +4,14 @@
 computed. Metadata and file-integrity checks performed before this freeze are
 listed below; they are not outcome analyses.
 
-**Terminology-only update:** 10 July 2026. The descriptive method label was
-standardized to `matched-support audit`; no cohort, preprocessing, model,
-support, metric, threshold or analysis rule was changed.
+**Terminology-only update:** 10 July 2026. Version 1.0.3 temporarily replaced
+the formal method name with a descriptive label; version 1.0.4 restored
+`Claim-Control Audit (CCA)`. No cohort, preprocessing, model, support, metric,
+threshold or analysis rule was changed.
 
 ## Purpose and claim boundary
 
-This analysis tests whether the matched-support audit can be executed on
+This analysis tests whether the Claim-Control Audit (CCA) can be executed on
 independently collected raw facial video and whether an anatomical region
 claim survives topology-matched and shortcut controls. It is not a clinical
 validation study and does not estimate patient-level diagnostic performance.

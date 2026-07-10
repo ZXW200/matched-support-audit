@@ -21,11 +21,11 @@ that its location is exceptional.
   YouTubePD clips and PARK participant features shown as non-equivalent tiers.
 
 Do not draw an arrow from positive margin to biomarker. Show fixed-model
-faithfulness as a separate test outside the matched-support audit.
+faithfulness as a separate test outside CCA.
 
 ## Figure 2 | Operating experiments distinguish simulated mechanisms
 
-**Conclusion:** one specified audit implementation returns different decisions
+**Conclusion:** one specified CCA implementation returns different decisions
 for injected local, border, distributed and misplaced signals.
 
 - **a, Null repetitions:** 2/30 detections with Wilson interval and raw count.
@@ -92,7 +92,7 @@ labels without validating raw-image location.
   PD-DBS, YouTubePD and PARK.
 - **d, Final boundary:** discrimination present; primary location support absent
   in the two raw-data applications; faithfulness, causality and clinical utility
-  not established by the audit.
+  not established by CCA.
 
 Do not compare the three AUROCs as estimates of a common endpoint.
 

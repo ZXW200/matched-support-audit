@@ -1,15 +1,15 @@
-# Matched-Support Audit Specification
+# Claim-Control Audit Specification
 
 ## Method Name
 
-The proposed method is a **matched-support audit** for anatomical
-interpretations of facial AI. The audit is not a diagnostic model and does not
+The proposed method is a **Claim-Control Audit (CCA)** for anatomical
+interpretations of facial AI. CCA is not a diagnostic model and does not
 establish a biomarker. It evaluates whether the evidence record satisfies the
 preconditions required before an anatomical biomarker interpretation is made.
 
 ## Evidence Ladder
 
-The audit separates claims that are often collapsed into one statement:
+CCA separates claims that are often collapsed into one statement:
 
 1. **Predictive signal**: the input-label task is discriminative under a locked
    evaluation protocol.
@@ -62,7 +62,7 @@ difference and support rank. Support ranks are not patient-level P values.
 
 ## Falsifiability Requirements
 
-Audit components are methodologically supported only to the extent that they
+CCA components are methodologically supported only to the extent that they
 behave correctly on controlled tasks with known signal-generating supports:
 
 - known ROI signal: the named ROI exceeds exact-size random supports;
@@ -165,7 +165,7 @@ association. It does not validate a named raw-image location.
 
 ## Boundaries
 
-The audit can falsify an anatomical interpretation in a dataset. Passing the audit would
+CCA can falsify an anatomical interpretation in a dataset. Passing CCA would
 not prove that a signal is clinically causal, disease-specific,
 treatment-responsive or useful. The PD-DBS matrix additionally lacks verifiable
 provenance, ethics, consent and data-access documentation. YouTubePD lacks a

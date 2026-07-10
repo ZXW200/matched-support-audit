@@ -287,7 +287,7 @@ def make_figure_1(source_dir: Path, output_dir: Path) -> dict[str, object]:
     y_top = ys[1] + 0.05
     y_bottom = ys[2] - 0.05
     ax.plot([0.94, 0.97, 0.97, 0.94], [y_top, y_top, y_bottom, y_bottom], color=BLUE_DARK, linewidth=1.0)
-    ax.text(0.985, (y_top + y_bottom) / 2, "Matched-support audit", rotation=90, color=BLUE_DARK, va="center", ha="left", fontsize=5.4, fontweight="bold")
+    ax.text(0.985, (y_top + y_bottom) / 2, "CCA", rotation=90, color=BLUE_DARK, va="center", ha="left", fontsize=6.2, fontweight="bold")
     ax.text(0.02, 0.025, "A positive location margin is not a biomarker claim.", fontsize=5.4, color=WARM, fontweight="bold")
     ax.set_xlim(0, 1.08)
     ax.set_ylim(0, 1)
