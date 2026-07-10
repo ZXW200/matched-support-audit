@@ -2,12 +2,12 @@
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
   "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg xmlns:xlink="http://www.w3.org/1999/xlink" width="518.740157pt" height="498.897638pt" viewBox="0 0 518.740157 498.897638" xmlns="http://www.w3.org/2000/svg" version="1.1">
- <title>A legacy image matrix fails to support named locations</title>
+ <title>A legacy image matrix reveals distributed image-level signal</title>
  <metadata>
   <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <cc:Work>
     <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
-    <dc:title>A legacy image matrix fails to support named locations</dc:title>
+    <dc:title>A legacy image matrix reveals distributed image-level signal</dc:title>
     <dc:date>2026-07-10</dc:date>
     <dc:format>image/svg+xml</dc:format>
     <dc:creator>
@@ -257,7 +257,7 @@ L 226.739649 101.288324
     <text style="font-weight: 700; font-size: 8.5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #262b33" x="47.033835" y="26.448416" transform="rotate(-0 47.033835 26.448416)">a</text>
    </g>
    <g id="text_16">
-    <text style="font-size: 4.9px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #5f6670" x="68.080462" y="97.20329" transform="rotate(-0 68.080462 97.20329)">Unit: held-out image; post hoc exclusion</text>
+    <text style="font-size: 4.9px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #5f6670" x="68.080462" y="97.20329" transform="rotate(-0 68.080462 97.20329)">Unit: held-out image. Post hoc exclusion.</text>
    </g>
    <g id="text_17">
     <text style="font-weight: 700; font-size: 7.2px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #262b33" x="64.84252" y="20.944882" transform="rotate(-0 64.84252 20.944882)">Image-level discrimination after similarity exclusion</text>
@@ -1060,7 +1060,7 @@ L 501.96477 95.712516
 " clip-path="url(#pstable0028)" style="fill: none; stroke: #355e82; stroke-width: 1.25; stroke-linecap: square"/>
    </g>
    <g id="text_34">
-    <text style="font-size: 5.2px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #5f6670" x="313.084785" y="335.359493" transform="rotate(-0 313.084785 335.359493)">Unit: held-out image; each AUROC is averaged across three fresh model fits.</text>
+    <text style="font-size: 5.2px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #5f6670" x="313.084785" y="335.359493" transform="rotate(-0 313.084785 335.359493)">Unit: held-out image. Each AUROC averages three fresh model fits.</text>
    </g>
    <g id="text_35">
     <text style="font-weight: 700; font-size: 7.2px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #262b33" x="313.084785" y="20.944882" transform="rotate(-0 313.084785 20.944882)">Named supports versus 64 translated supports</text>
@@ -1488,7 +1488,7 @@ L 226.739649 284.79736
     <text style="font-weight: 700; font-size: 8.2px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: end; fill: #b66a5b" x="223.501707" y="277.816923" transform="rotate(-0 223.501707 277.816923)">0/8</text>
    </g>
    <g id="text_58">
-    <text style="font-size: 5.2px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #5f6670" x="64.84252" y="316.402956" transform="rotate(-0 64.84252 316.402956)">Descriptive gate; no multiplicity-controlled p values.</text>
+    <text style="font-size: 5.2px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #5f6670" x="64.84252" y="316.466331" transform="rotate(-0 64.84252 316.466331)">Location margins use descriptive q97.5 spatial references.</text>
    </g>
    <g id="text_59">
     <text style="font-weight: 700; font-size: 7.2px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #262b33" x="64.84252" y="173.553" transform="rotate(-0 64.84252 173.553)">All location margins are negative</text>
@@ -1973,7 +1973,7 @@ L 226.739649 456.491339
     <text style="font-weight: 700; font-size: 8.5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #262b33" x="47.033835" y="361.420418" transform="rotate(-0 47.033835 361.420418)">d</text>
    </g>
    <g id="text_78">
-    <text style="font-size: 5.2px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #5f6670" x="64.84252" y="484.086164" transform="rotate(-0 64.84252 484.086164)">Random-support bars: min-max across 50 draws; other controls: point estimates.</text>
+    <text style="font-size: 5.2px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #5f6670" x="64.84252" y="484.137352" transform="rotate(-0 64.84252 484.137352)">Random-support bars: min-max across 50 draws. Other controls: point estimates.</text>
    </g>
    <g id="text_79">
     <text style="font-weight: 700; font-size: 7.2px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #262b33" x="64.84252" y="357.062035" transform="rotate(-0 64.84252 357.062035)">Distributed and non-facial controls remain predictive</text>
@@ -2309,7 +2309,7 @@ L 425.103297 452.153643
     </g>
    </g>
    <g id="text_95">
-    <text style="font-size: 5.2px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #5f6670" x="313.084785" y="484.086164" transform="rotate(-0 313.084785 484.086164)">Unit: held-out image; reassignment rows summarize 24 permutations.</text>
+    <text style="font-size: 5.2px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #5f6670" x="313.084785" y="484.086164" transform="rotate(-0 313.084785 484.086164)">Unit: held-out image. Reassignment rows summarise 24 permutations.</text>
    </g>
    <g id="text_96">
     <text style="font-weight: 700; font-size: 7.2px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #262b33" x="313.084785" y="357.062035" transform="rotate(-0 313.084785 357.062035)">Detector geometry and reassigned masks</text>
@@ -2424,10 +2424,10 @@ z
    </g>
   </g>
   <g id="text_97">
-   <text style="font-weight: 700; font-size: 5.2px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: end; fill: #b66a5b" x="516.146457" y="496.306507" transform="rotate(-0 516.146457 496.306507)">Image-level; patient identity unavailable; treatment-state label mapping unresolved.</text>
+   <text style="font-weight: 700; font-size: 5.2px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: end; fill: #b66a5b" x="516.146457" y="496.306507" transform="rotate(-0 516.146457 496.306507)">Unit: image. Available fields: image, numerical label and supplied split.</text>
   </g>
   <g id="text_98">
-   <text style="font-weight: 700; font-size: 9.2px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: start" x="2.593701" y="-5.775128" transform="rotate(-0 2.593701 -5.775128)">A legacy image matrix fails to support named locations</text>
+   <text style="font-weight: 700; font-size: 9.2px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: start" x="2.593701" y="-5.887253" transform="rotate(-0 2.593701 -5.887253)">A legacy image matrix reveals distributed image-level signal</text>
   </g>
  </g>
  <defs>

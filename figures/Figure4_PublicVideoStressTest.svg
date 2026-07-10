@@ -178,7 +178,7 @@ z
     <text style="font-size: 5.4px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; fill: #262b33" transform="translate(459.765178 65.5101)">test</text>
    </g>
    <g id="text_13">
-    <text style="font-size: 5.1px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: end; fill: #5f6670" x="506.49789" y="77.115996" transform="rotate(-0 506.49789 77.115996)">No identifiable frames displayed</text>
+    <text style="font-size: 5.1px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: end; fill: #5f6670" x="506.49789" y="77.115996" transform="rotate(-0 506.49789 77.115996)">Identifiable frames excluded from display</text>
    </g>
   </g>
   <g id="axes_2">
@@ -507,7 +507,7 @@ z
     <text style="font-weight: 700; font-size: 7px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: end; fill: #b66a5b" x="241.130505" y="161.54921" transform="rotate(-0 241.130505 161.54921)">0/8 both gates</text>
    </g>
    <g id="text_32">
-    <text style="font-size: 5.2px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #5f6670" x="64.84252" y="300.630036" transform="rotate(-0 64.84252 300.630036)">Unit: video clip; repeated CV includes spreadsheet-holdout clips.</text>
+    <text style="font-size: 5.2px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #5f6670" x="64.84252" y="300.630036" transform="rotate(-0 64.84252 300.630036)">Unit: video clip. Repeated CV includes spreadsheet-holdout clips.</text>
    </g>
    <g id="text_33">
     <text style="font-weight: 700; font-size: 7.2px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #262b33" x="64.84252" y="138.94365" transform="rotate(-0 64.84252 138.94365)">Primary logistic location audit</text>
@@ -819,7 +819,7 @@ z
     <text style="font-weight: 700; font-size: 7px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: end; fill: #b66a5b" x="507.361341" y="161.463898" transform="rotate(-0 507.361341 161.463898)">1/8 holdout; 0/8 both</text>
    </g>
    <g id="text_54">
-    <text style="font-size: 5.2px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #5f6670" x="331.073355" y="300.630036" transform="rotate(-0 331.073355 300.630036)">The mouth holdout exception fails the repeated-CV gate.</text>
+    <text style="font-size: 5.2px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #5f6670" x="331.073355" y="300.630036" transform="rotate(-0 331.073355 300.630036)">Mouth margin: +0.004 holdout and -0.053 repeated CV.</text>
    </g>
    <g id="text_55">
     <text style="font-weight: 700; font-size: 7.2px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #262b33" x="331.073355" y="138.94365" transform="rotate(-0 331.073355 138.94365)">Post hoc RBF-SVM sensitivity</text>
@@ -1080,7 +1080,7 @@ L 0 -2
     </g>
    </g>
    <g id="text_69">
-    <text style="font-size: 5.2px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #5f6670" x="64.84252" y="509.885495" transform="rotate(-0 64.84252 509.885495)">Unit: video clip; bootstrap interval for holdout, fold s.d. for repeated CV.</text>
+    <text style="font-size: 5.2px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #5f6670" x="64.84252" y="509.885495" transform="rotate(-0 64.84252 509.885495)">Unit: video clip. Holdout bootstrap interval and repeated-CV fold s.d.</text>
    </g>
    <g id="text_70">
     <text style="font-weight: 700; font-size: 7.2px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #262b33" x="64.84252" y="339.520628" transform="rotate(-0 64.84252 339.520628)">Competing supports and acquisition metadata</text>
@@ -1704,22 +1704,22 @@ L 510.959055 474.633071
 " style="fill: none; stroke: #262b33; stroke-width: 0.65; stroke-linejoin: miter; stroke-linecap: square"/>
    </g>
    <g id="text_96">
-    <text style="font-size: 5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #5f6670" x="381.746515" y="473.812356" transform="rotate(-0 381.746515 473.812356)">21 pairs; 50 folds</text>
+    <text style="font-size: 5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #5f6670" x="381.746515" y="473.812356" transform="rotate(-0 381.746515 473.812356)">21 pairs, 50 folds</text>
    </g>
    <g id="text_97">
     <g id="patch_29">
-     <path d="M 420.900948 453.339441
+     <path d="M 447.065448 453.339441
 L 510.168198 453.339441
 L 510.168198 446.877441
-L 420.900948 446.877441
+L 447.065448 446.877441
 z
 " style="fill: #ffffff"/>
     </g>
-    <text style="font-size: 4.8px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: end; fill: #5f6670" x="509.160198" y="451.321191" transform="rotate(-0 509.160198 451.321191)">Exploratory; no participant independence</text>
+    <text style="font-size: 4.8px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: end; fill: #5f6670" x="509.160198" y="451.321191" transform="rotate(-0 509.160198 451.321191)">Exploratory clip-pair analysis</text>
    </g>
   </g>
   <g id="text_98">
-   <text style="font-weight: 700; font-size: 5.2px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: end; fill: #b66a5b" x="510.959055" y="511.160269" transform="rotate(-0 510.959055 511.160269)">Clip-level stress test; not participant-independent external clinical validation.</text>
+   <text style="font-weight: 700; font-size: 5.2px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: end; fill: #b66a5b" x="510.959055" y="511.092019" transform="rotate(-0 510.959055 511.092019)">Unit: video clip. Spreadsheet contains no participant key.</text>
   </g>
   <g id="text_99">
    <text style="font-weight: 700; font-size: 9.2px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: start" x="2.593701" y="-6.454183" transform="rotate(-0 2.593701 -6.454183)">A public-video stress test returns the same primary location decision</text>

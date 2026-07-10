@@ -7,22 +7,22 @@
     {
       "check": "Figure1_MatchedSpatialReference: svg exists",
       "passed": true,
-      "detail": "Figure1_MatchedSpatialReference.svg; 55008 bytes"
+      "detail": "Figure1_MatchedSpatialReference.svg; 55018 bytes"
     },
     {
       "check": "Figure1_MatchedSpatialReference: pdf exists",
       "passed": true,
-      "detail": "Figure1_MatchedSpatialReference.pdf; 58965 bytes"
+      "detail": "Figure1_MatchedSpatialReference.pdf; 58174 bytes"
     },
     {
       "check": "Figure1_MatchedSpatialReference: tiff exists",
       "passed": true,
-      "detail": "Figure1_MatchedSpatialReference.tiff; 1491546 bytes"
+      "detail": "Figure1_MatchedSpatialReference.tiff; 1498308 bytes"
     },
     {
       "check": "Figure1_MatchedSpatialReference: png exists",
       "passed": true,
-      "detail": "Figure1_MatchedSpatialReference.png; 307289 bytes"
+      "detail": "Figure1_MatchedSpatialReference.png; 311566 bytes"
     },
     {
       "check": "Figure1_MatchedSpatialReference: PNG dimensions",
@@ -32,7 +32,7 @@
     {
       "check": "Figure1_MatchedSpatialReference: PNG nonblank",
       "passed": true,
-      "detail": "pixel_sd=31.58; nonwhite=0.112"
+      "detail": "pixel_sd=31.83; nonwhite=0.113"
     },
     {
       "check": "Figure1_MatchedSpatialReference: PNG resolution",
@@ -52,7 +52,7 @@
     {
       "check": "Figure1_MatchedSpatialReference: TIFF nonblank",
       "passed": true,
-      "detail": "pixel_sd=32.31; nonwhite=0.109"
+      "detail": "pixel_sd=32.56; nonwhite=0.109"
     },
     {
       "check": "Figure1_MatchedSpatialReference: PDF page count",
@@ -67,7 +67,7 @@
     {
       "check": "Figure1_MatchedSpatialReference: PDF searchable text",
       "passed": true,
-      "detail": "characters=1381"
+      "detail": "characters=1391"
     },
     {
       "check": "Figure1_MatchedSpatialReference: SVG editable text",
@@ -82,22 +82,22 @@
     {
       "check": "Figure2_SyntheticOperatingExperiments: svg exists",
       "passed": true,
-      "detail": "Figure2_SyntheticOperatingExperiments.svg; 48340 bytes"
+      "detail": "Figure2_SyntheticOperatingExperiments.svg; 48297 bytes"
     },
     {
       "check": "Figure2_SyntheticOperatingExperiments: pdf exists",
       "passed": true,
-      "detail": "Figure2_SyntheticOperatingExperiments.pdf; 62576 bytes"
+      "detail": "Figure2_SyntheticOperatingExperiments.pdf; 61683 bytes"
     },
     {
       "check": "Figure2_SyntheticOperatingExperiments: tiff exists",
       "passed": true,
-      "detail": "Figure2_SyntheticOperatingExperiments.tiff; 1601680 bytes"
+      "detail": "Figure2_SyntheticOperatingExperiments.tiff; 1599204 bytes"
     },
     {
       "check": "Figure2_SyntheticOperatingExperiments: png exists",
       "passed": true,
-      "detail": "Figure2_SyntheticOperatingExperiments.png; 216836 bytes"
+      "detail": "Figure2_SyntheticOperatingExperiments.png; 216380 bytes"
     },
     {
       "check": "Figure2_SyntheticOperatingExperiments: PNG dimensions",
@@ -107,7 +107,7 @@
     {
       "check": "Figure2_SyntheticOperatingExperiments: PNG nonblank",
       "passed": true,
-      "detail": "pixel_sd=51.48; nonwhite=0.241"
+      "detail": "pixel_sd=51.46; nonwhite=0.241"
     },
     {
       "check": "Figure2_SyntheticOperatingExperiments: PNG resolution",
@@ -127,7 +127,7 @@
     {
       "check": "Figure2_SyntheticOperatingExperiments: TIFF nonblank",
       "passed": true,
-      "detail": "pixel_sd=51.88; nonwhite=0.240"
+      "detail": "pixel_sd=51.86; nonwhite=0.239"
     },
     {
       "check": "Figure2_SyntheticOperatingExperiments: PDF page count",
@@ -142,7 +142,7 @@
     {
       "check": "Figure2_SyntheticOperatingExperiments: PDF searchable text",
       "passed": true,
-      "detail": "characters=927"
+      "detail": "characters=912"
     },
     {
       "check": "Figure2_SyntheticOperatingExperiments: SVG editable text",
@@ -157,22 +157,22 @@
     {
       "check": "Figure3_LegacyImageMatrixAudit: svg exists",
       "passed": true,
-      "detail": "Figure3_LegacyImageMatrixAudit.svg; 168059 bytes"
+      "detail": "Figure3_LegacyImageMatrixAudit.svg; 168061 bytes"
     },
     {
       "check": "Figure3_LegacyImageMatrixAudit: pdf exists",
       "passed": true,
-      "detail": "Figure3_LegacyImageMatrixAudit.pdf; 71247 bytes"
+      "detail": "Figure3_LegacyImageMatrixAudit.pdf; 70819 bytes"
     },
     {
       "check": "Figure3_LegacyImageMatrixAudit: tiff exists",
       "passed": true,
-      "detail": "Figure3_LegacyImageMatrixAudit.tiff; 1905528 bytes"
+      "detail": "Figure3_LegacyImageMatrixAudit.tiff; 1901128 bytes"
     },
     {
       "check": "Figure3_LegacyImageMatrixAudit: png exists",
       "passed": true,
-      "detail": "Figure3_LegacyImageMatrixAudit.png; 446308 bytes"
+      "detail": "Figure3_LegacyImageMatrixAudit.png; 446388 bytes"
     },
     {
       "check": "Figure3_LegacyImageMatrixAudit: PNG dimensions",
@@ -182,7 +182,7 @@
     {
       "check": "Figure3_LegacyImageMatrixAudit: PNG nonblank",
       "passed": true,
-      "detail": "pixel_sd=32.31; nonwhite=0.062"
+      "detail": "pixel_sd=32.27; nonwhite=0.061"
     },
     {
       "check": "Figure3_LegacyImageMatrixAudit: PNG resolution",
@@ -202,7 +202,7 @@
     {
       "check": "Figure3_LegacyImageMatrixAudit: TIFF nonblank",
       "passed": true,
-      "detail": "pixel_sd=33.33; nonwhite=0.059"
+      "detail": "pixel_sd=33.28; nonwhite=0.059"
     },
     {
       "check": "Figure3_LegacyImageMatrixAudit: PDF page count",
@@ -217,7 +217,7 @@
     {
       "check": "Figure3_LegacyImageMatrixAudit: PDF searchable text",
       "passed": true,
-      "detail": "characters=1579"
+      "detail": "characters=1569"
     },
     {
       "check": "Figure3_LegacyImageMatrixAudit: SVG editable text",
@@ -232,22 +232,22 @@
     {
       "check": "Figure4_PublicVideoStressTest: svg exists",
       "passed": true,
-      "detail": "Figure4_PublicVideoStressTest.svg; 79310 bytes"
+      "detail": "Figure4_PublicVideoStressTest.svg; 79277 bytes"
     },
     {
       "check": "Figure4_PublicVideoStressTest: pdf exists",
       "passed": true,
-      "detail": "Figure4_PublicVideoStressTest.pdf; 66475 bytes"
+      "detail": "Figure4_PublicVideoStressTest.pdf; 66934 bytes"
     },
     {
       "check": "Figure4_PublicVideoStressTest: tiff exists",
       "passed": true,
-      "detail": "Figure4_PublicVideoStressTest.tiff; 1655608 bytes"
+      "detail": "Figure4_PublicVideoStressTest.tiff; 1647898 bytes"
     },
     {
       "check": "Figure4_PublicVideoStressTest: png exists",
       "passed": true,
-      "detail": "Figure4_PublicVideoStressTest.png; 304497 bytes"
+      "detail": "Figure4_PublicVideoStressTest.png; 303522 bytes"
     },
     {
       "check": "Figure4_PublicVideoStressTest: PNG dimensions",
@@ -257,7 +257,7 @@
     {
       "check": "Figure4_PublicVideoStressTest: PNG nonblank",
       "passed": true,
-      "detail": "pixel_sd=33.70; nonwhite=0.102"
+      "detail": "pixel_sd=33.62; nonwhite=0.101"
     },
     {
       "check": "Figure4_PublicVideoStressTest: PNG resolution",
@@ -277,7 +277,7 @@
     {
       "check": "Figure4_PublicVideoStressTest: TIFF nonblank",
       "passed": true,
-      "detail": "pixel_sd=34.54; nonwhite=0.100"
+      "detail": "pixel_sd=34.47; nonwhite=0.100"
     },
     {
       "check": "Figure4_PublicVideoStressTest: PDF page count",
@@ -292,7 +292,7 @@
     {
       "check": "Figure4_PublicVideoStressTest: PDF searchable text",
       "passed": true,
-      "detail": "characters=1485"
+      "detail": "characters=1452"
     },
     {
       "check": "Figure4_PublicVideoStressTest: SVG editable text",
@@ -307,22 +307,22 @@
     {
       "check": "Figure5_EvidenceBoundaries: svg exists",
       "passed": true,
-      "detail": "Figure5_EvidenceBoundaries.svg; 43682 bytes"
+      "detail": "Figure5_EvidenceBoundaries.svg; 43660 bytes"
     },
     {
       "check": "Figure5_EvidenceBoundaries: pdf exists",
       "passed": true,
-      "detail": "Figure5_EvidenceBoundaries.pdf; 61034 bytes"
+      "detail": "Figure5_EvidenceBoundaries.pdf; 61294 bytes"
     },
     {
       "check": "Figure5_EvidenceBoundaries: tiff exists",
       "passed": true,
-      "detail": "Figure5_EvidenceBoundaries.tiff; 1426116 bytes"
+      "detail": "Figure5_EvidenceBoundaries.tiff; 1415066 bytes"
     },
     {
       "check": "Figure5_EvidenceBoundaries: png exists",
       "passed": true,
-      "detail": "Figure5_EvidenceBoundaries.png; 244662 bytes"
+      "detail": "Figure5_EvidenceBoundaries.png; 239347 bytes"
     },
     {
       "check": "Figure5_EvidenceBoundaries: PNG dimensions",
@@ -332,7 +332,7 @@
     {
       "check": "Figure5_EvidenceBoundaries: PNG nonblank",
       "passed": true,
-      "detail": "pixel_sd=51.69; nonwhite=0.284"
+      "detail": "pixel_sd=51.57; nonwhite=0.284"
     },
     {
       "check": "Figure5_EvidenceBoundaries: PNG resolution",
@@ -352,7 +352,7 @@
     {
       "check": "Figure5_EvidenceBoundaries: TIFF nonblank",
       "passed": true,
-      "detail": "pixel_sd=52.22; nonwhite=0.283"
+      "detail": "pixel_sd=52.09; nonwhite=0.283"
     },
     {
       "check": "Figure5_EvidenceBoundaries: PDF page count",
@@ -367,7 +367,7 @@
     {
       "check": "Figure5_EvidenceBoundaries: PDF searchable text",
       "passed": true,
-      "detail": "characters=1153"
+      "detail": "characters=1129"
     },
     {
       "check": "Figure5_EvidenceBoundaries: SVG editable text",
@@ -382,22 +382,22 @@
     {
       "check": "ExtendedDataFigure1_ReconstructionDrift: svg exists",
       "passed": true,
-      "detail": "ExtendedDataFigure1_ReconstructionDrift.svg; 31352 bytes"
+      "detail": "ExtendedDataFigure1_ReconstructionDrift.svg; 31380 bytes"
     },
     {
       "check": "ExtendedDataFigure1_ReconstructionDrift: pdf exists",
       "passed": true,
-      "detail": "ExtendedDataFigure1_ReconstructionDrift.pdf; 52632 bytes"
+      "detail": "ExtendedDataFigure1_ReconstructionDrift.pdf; 52416 bytes"
     },
     {
       "check": "ExtendedDataFigure1_ReconstructionDrift: tiff exists",
       "passed": true,
-      "detail": "ExtendedDataFigure1_ReconstructionDrift.tiff; 1106902 bytes"
+      "detail": "ExtendedDataFigure1_ReconstructionDrift.tiff; 1107182 bytes"
     },
     {
       "check": "ExtendedDataFigure1_ReconstructionDrift: png exists",
       "passed": true,
-      "detail": "ExtendedDataFigure1_ReconstructionDrift.png; 127994 bytes"
+      "detail": "ExtendedDataFigure1_ReconstructionDrift.png; 127902 bytes"
     },
     {
       "check": "ExtendedDataFigure1_ReconstructionDrift: PNG dimensions",
@@ -407,7 +407,7 @@
     {
       "check": "ExtendedDataFigure1_ReconstructionDrift: PNG nonblank",
       "passed": true,
-      "detail": "pixel_sd=35.25; nonwhite=0.215"
+      "detail": "pixel_sd=35.28; nonwhite=0.215"
     },
     {
       "check": "ExtendedDataFigure1_ReconstructionDrift: PNG resolution",
@@ -427,7 +427,7 @@
     {
       "check": "ExtendedDataFigure1_ReconstructionDrift: TIFF nonblank",
       "passed": true,
-      "detail": "pixel_sd=36.03; nonwhite=0.212"
+      "detail": "pixel_sd=36.06; nonwhite=0.212"
     },
     {
       "check": "ExtendedDataFigure1_ReconstructionDrift: PDF page count",
@@ -442,7 +442,7 @@
     {
       "check": "ExtendedDataFigure1_ReconstructionDrift: PDF searchable text",
       "passed": true,
-      "detail": "characters=588"
+      "detail": "characters=608"
     },
     {
       "check": "ExtendedDataFigure1_ReconstructionDrift: SVG editable text",

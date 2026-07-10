@@ -288,7 +288,7 @@ def make_figure_1(source_dir: Path, output_dir: Path) -> dict[str, object]:
     y_bottom = ys[2] - 0.05
     ax.plot([0.94, 0.97, 0.97, 0.94], [y_top, y_top, y_bottom, y_bottom], color=BLUE_DARK, linewidth=1.0)
     ax.text(0.985, (y_top + y_bottom) / 2, "CCA", rotation=90, color=BLUE_DARK, va="center", ha="left", fontsize=6.2, fontweight="bold")
-    ax.text(0.02, 0.025, "A positive location margin is not a biomarker claim.", fontsize=5.4, color=WARM, fontweight="bold")
+    ax.text(0.02, 0.025, "CCA scope: support specificity and anatomical location.", fontsize=5.4, color=BLUE_DARK, fontweight="bold")
     ax.set_xlim(0, 1.08)
     ax.set_ylim(0, 1)
 
@@ -337,7 +337,7 @@ def make_figure_1(source_dir: Path, output_dir: Path) -> dict[str, object]:
         ax.text(0.71, centre_y + 0.055, "named AUROC", color=WARM, fontweight="bold", fontsize=5.1)
         ax.text(0.71, centre_y - 0.005, quantile_label, color=BLUE_DARK, fontweight="bold", fontsize=5.1)
         ax.text(0.71, centre_y - 0.065, margin_label, color=INK, fontsize=4.8)
-    ax.text(0.02, 0.015, "Fresh fit per support; data, representation, estimator and split fixed.", fontsize=4.7, color=GREY_DARK)
+    ax.text(0.02, 0.015, "Fresh fit per support. Data, representation, estimator and split fixed.", fontsize=4.7, color=GREY_DARK)
     ax.set_xlim(0, 1.04)
     ax.set_ylim(0, 1.02)
 
@@ -361,12 +361,12 @@ def make_figure_1(source_dir: Path, output_dir: Path) -> dict[str, object]:
     ax.set_xlabel("AUROC (schematic)")
     ax.spines["left"].set_visible(False)
     add_reference_grid(ax, "x")
-    ax.text(0.01, 0.04, "Descriptive rule; not a p value", transform=ax.transAxes, fontsize=5.0, color=GREY_DARK, ha="left", va="bottom")
+    ax.text(0.01, 0.04, "Operational q97.5 spatial reference", transform=ax.transAxes, fontsize=5.0, color=GREY_DARK, ha="left", va="bottom")
 
     ax = fig.add_subplot(gs[2, 1])
     ax.set_axis_off()
     panel_label(ax, "d", x=-0.09, y=1.08)
-    ax.text(0.0, 1.04, "Non-equivalent evidence tiers", fontweight="bold", va="bottom")
+    ax.text(0.0, 1.04, "Resource-specific evidence tiers", fontweight="bold", va="bottom")
     headers = [(0.01, "Resource"), (0.27, "Unit"), (0.51, "Access"), (0.72, "Maximum inference")]
     for x0, header in headers:
         ax.text(x0, 0.86, header, fontsize=5.1, fontweight="bold", color=GREY_DARK, va="center")
@@ -436,7 +436,7 @@ def make_figure_2(source_dir: Path, output_dir: Path) -> dict[str, object]:
     ax.set_ylabel("Detection proportion")
     ax.set_xlabel("Injected local effect")
     add_reference_grid(ax, "y")
-    unit_note(ax, "Unit: synthetic repetition; n=15 per non-null effect.", y=-0.30)
+    unit_note(ax, "Unit: synthetic repetition. n=15 per positive effect.", y=-0.30)
 
     ax = fig.add_subplot(gs[1, 0])
     panel_label(ax, "c", x=-0.10)
@@ -494,7 +494,7 @@ def make_figure_2(source_dir: Path, output_dir: Path) -> dict[str, object]:
     ax.set_xlim(-0.5, 5.15)
     for spine in ax.spines.values():
         spine.set_visible(False)
-    unit_note(ax, "Synthetic independent pixels do not determine facial-data error rates or power.", y=-0.25)
+    unit_note(ax, "Operating check for the specified model and synthetic generator.", y=-0.25)
 
     title = "Operating experiments distinguish simulated mechanisms"
     fig.suptitle(title, x=0.005, y=1.025, ha="left", fontsize=9.2, fontweight="bold")
@@ -531,7 +531,7 @@ def make_figure_3(source_dir: Path, output_dir: Path) -> dict[str, object]:
     ax.set_ylabel("AUROC")
     ax.set_xlabel("Maximum cosine-similarity exclusion")
     add_reference_grid(ax, "y")
-    ax.text(0.02, 0.04, "Unit: held-out image; post hoc exclusion", transform=ax.transAxes, fontsize=4.9, color=GREY_DARK, ha="left", va="bottom")
+    ax.text(0.02, 0.04, "Unit: held-out image. Post hoc exclusion.", transform=ax.transAxes, fontsize=4.9, color=GREY_DARK, ha="left", va="bottom")
 
     ax = fig.add_subplot(gs[0:2, 1])
     panel_label(ax, "b", x=-0.08, y=1.03)
@@ -556,7 +556,7 @@ def make_figure_3(source_dir: Path, output_dir: Path) -> dict[str, object]:
         Line2D([], [], marker="D", linestyle="none", markersize=4.2, markerfacecolor=WARM, markeredgecolor=WARM, label="Named support"),
     ]
     ax.legend(handles=handles, loc="lower left", ncol=3, columnspacing=1.0, handletextpad=0.45)
-    unit_note(ax, "Unit: held-out image; each AUROC is averaged across three fresh model fits.", y=-0.18)
+    unit_note(ax, "Unit: held-out image. Each AUROC averages three fresh model fits.", y=-0.18)
 
     ax = fig.add_subplot(gs[1, 0])
     panel_label(ax, "c")
@@ -574,7 +574,7 @@ def make_figure_3(source_dir: Path, output_dir: Path) -> dict[str, object]:
     ax.set_xlabel("Named AUROC - translated q97.5")
     ax.text(0.98, 0.05, "0/8", transform=ax.transAxes, ha="right", va="bottom", fontsize=8.2, fontweight="bold", color=WARM)
     add_reference_grid(ax, "x")
-    unit_note(ax, "Descriptive gate; no multiplicity-controlled p values.", y=-0.26)
+    unit_note(ax, "Location margins use descriptive q97.5 spatial references.", y=-0.26)
 
     ax = fig.add_subplot(gs[2, 0])
     panel_label(ax, "d")
@@ -597,7 +597,7 @@ def make_figure_3(source_dir: Path, output_dir: Path) -> dict[str, object]:
     ax.set_xlim(0.47, 1.005)
     ax.set_xlabel("AUROC")
     add_reference_grid(ax, "x")
-    unit_note(ax, "Random-support bars: min-max across 50 draws; other controls: point estimates.", y=-0.25)
+    unit_note(ax, "Random-support bars: min-max across 50 draws. Other controls: point estimates.", y=-0.25)
 
     ax = fig.add_subplot(gs[2, 1])
     panel_label(ax, "e", x=-0.08)
@@ -625,11 +625,11 @@ def make_figure_3(source_dir: Path, output_dir: Path) -> dict[str, object]:
     ax.set_xlim(0.47, 1.005)
     ax.set_xlabel("AUROC (95% bootstrap CI or q2.5-q97.5)")
     add_reference_grid(ax, "x")
-    unit_note(ax, "Unit: held-out image; reassignment rows summarize 24 permutations.", y=-0.25)
+    unit_note(ax, "Unit: held-out image. Reassignment rows summarise 24 permutations.", y=-0.25)
 
-    footer = "Image-level; patient identity unavailable; treatment-state label mapping unresolved."
+    footer = "Unit: image. Available fields: image, numerical label and supplied split."
     fig.text(0.995, 0.003, footer, ha="right", va="bottom", fontsize=5.2, color=WARM, fontweight="bold")
-    title = "A legacy image matrix fails to support named locations"
+    title = "A legacy image matrix reveals distributed image-level signal"
     fig.suptitle(title, x=0.005, y=1.025, ha="left", fontsize=9.2, fontweight="bold")
     return save_figure(fig, output_dir, "Figure3_LegacyImageMatrixAudit", height_mm, title)
 
@@ -699,7 +699,7 @@ def make_figure_4(source_dir: Path, output_dir: Path) -> dict[str, object]:
         if i < n_stages - 1:
             arrow = FancyArrowPatch((x0 + box_w + 0.006, 0.455), (x0 + box_w + gap - 0.006, 0.455), arrowstyle="-|>", mutation_scale=7, color=GREY_DARK, linewidth=0.7)
             ax.add_patch(arrow)
-    ax.text(0.99, 0.02, "No identifiable frames displayed", ha="right", va="bottom", fontsize=5.1, color=GREY_DARK)
+    ax.text(0.99, 0.02, "Identifiable frames excluded from display", ha="right", va="bottom", fontsize=5.1, color=GREY_DARK)
     ax.set_xlim(0, 1)
     ax.set_ylim(0, 1)
 
@@ -708,13 +708,13 @@ def make_figure_4(source_dir: Path, output_dir: Path) -> dict[str, object]:
     _plot_margin_pair(ax, primary, "Primary logistic location audit")
     ax.text(0.98, 0.97, "0/8 both gates", transform=ax.transAxes, ha="right", va="top", color=WARM, fontweight="bold", fontsize=7.0, bbox={"facecolor": WHITE, "edgecolor": "none", "pad": 1.5})
     ax.legend(loc="lower left", bbox_to_anchor=(0.0, 1.005), ncol=2, columnspacing=0.9, handletextpad=0.4)
-    unit_note(ax, "Unit: video clip; repeated CV includes spreadsheet-holdout clips.", y=-0.23)
+    unit_note(ax, "Unit: video clip. Repeated CV includes spreadsheet-holdout clips.", y=-0.23)
 
     ax = fig.add_subplot(gs[1, 1])
     panel_label(ax, "c", x=-0.08)
     _plot_margin_pair(ax, rbf, "Post hoc RBF-SVM sensitivity", annotate_mouth=True)
     ax.text(0.98, 0.97, "1/8 holdout; 0/8 both", transform=ax.transAxes, ha="right", va="top", color=WARM, fontweight="bold", fontsize=7.0, bbox={"facecolor": WHITE, "edgecolor": "none", "pad": 1.5})
-    unit_note(ax, "The mouth holdout exception fails the repeated-CV gate.", y=-0.23)
+    unit_note(ax, "Mouth margin: +0.004 holdout and -0.053 repeated CV.", y=-0.23)
 
     ax = fig.add_subplot(gs[2, 0])
     panel_label(ax, "d")
@@ -737,7 +737,7 @@ def make_figure_4(source_dir: Path, output_dir: Path) -> dict[str, object]:
     ax.set_xlabel("AUROC")
     add_reference_grid(ax, "x")
     ax.legend(loc="upper left", ncol=1, handletextpad=0.4)
-    unit_note(ax, "Unit: video clip; bootstrap interval for holdout, fold s.d. for repeated CV.", y=-0.24)
+    unit_note(ax, "Unit: video clip. Holdout bootstrap interval and repeated-CV fold s.d.", y=-0.24)
 
     egrid = gs[2, 1].subgridspec(2, 1, height_ratios=(1.0, 1.0), hspace=0.78)
     ax_year = fig.add_subplot(egrid[0, 0])
@@ -768,11 +768,11 @@ def make_figure_4(source_dir: Path, output_dir: Path) -> dict[str, object]:
     ax_time.invert_yaxis()
     ax_time.set_xlim(0.45, 1.01)
     ax_time.set_xlabel("AUROC")
-    ax_time.text(vals[1] + 0.015, 1, "21 pairs; 50 folds", va="center", fontsize=5.0, color=GREY_DARK)
+    ax_time.text(vals[1] + 0.015, 1, "21 pairs, 50 folds", va="center", fontsize=5.0, color=GREY_DARK)
     add_reference_grid(ax_time, "x")
-    ax_time.text(0.99, 0.52, "Exploratory; no participant independence", transform=ax_time.transAxes, ha="right", va="center", fontsize=4.8, color=GREY_DARK, bbox={"facecolor": WHITE, "edgecolor": "none", "pad": 1.0})
+    ax_time.text(0.99, 0.52, "Exploratory clip-pair analysis", transform=ax_time.transAxes, ha="right", va="center", fontsize=4.8, color=GREY_DARK, bbox={"facecolor": WHITE, "edgecolor": "none", "pad": 1.0})
 
-    footer = "Clip-level stress test; not participant-independent external clinical validation."
+    footer = "Unit: video clip. Spreadsheet contains no participant key."
     fig.text(0.985, 0.018, footer, ha="right", va="bottom", fontsize=5.2, color=WARM, fontweight="bold")
     title = "A public-video stress test returns the same primary location decision"
     fig.suptitle(title, x=0.005, y=1.025, ha="left", fontsize=9.2, fontweight="bold")
@@ -805,7 +805,7 @@ def make_figure_5(source_dir: Path, output_dir: Path) -> dict[str, object]:
     n_test = int(observed["n_test_participants"])
     ax.text(0.98, 0.05, f"n={n_test} test participants", transform=ax.transAxes, ha="right", va="bottom", fontsize=5.3, color=GREY_DARK)
     add_reference_grid(ax, "x")
-    unit_note(ax, "Unit: participant; released extracted smile features.", y=-0.32)
+    unit_note(ax, "Unit: participant. Released extracted smile features.", y=-0.32)
 
     ax = fig.add_subplot(gs[0, 1])
     panel_label(ax, "b", x=-0.08)
@@ -824,7 +824,7 @@ def make_figure_5(source_dir: Path, output_dir: Path) -> dict[str, object]:
     ax.set_xlim(0.48, 0.97)
     ax.set_xlabel("AUROC (participant bootstrap 95% CI)")
     add_reference_grid(ax, "x")
-    unit_note(ax, "Sensitivity analyses; groups are not raw-image anatomical regions.", y=-0.24)
+    unit_note(ax, "Participant-level sensitivity of released feature families.", y=-0.24)
 
     ax = fig.add_subplot(gs[1, :])
     ax.set_axis_off()
@@ -872,9 +872,9 @@ def make_figure_5(source_dir: Path, output_dir: Path) -> dict[str, object]:
     panel_label(ax, "d", x=-0.025, y=1.04)
     ax.text(0.0, 1.02, "Permissible inference", fontweight="bold", va="bottom")
     bands = [
-        (0.01, 0.30, TEAL_LIGHT, TEAL, "ESTABLISHED", "Predictive discrimination exists\nin the tested resources"),
-        (0.335, 0.31, WARM_LIGHT, WARM, "PRIMARY RESULT", "Named locations receive no support\nin either raw-data application"),
-        (0.68, 0.31, GREY_LIGHT, GREY_DARK, "NOT ESTABLISHED", "Faithfulness, causal anatomy and\nclinical utility"),
+        (0.01, 0.30, TEAL_LIGHT, TEAL, "OBSERVED", "Predictive discrimination\nin the tested resources"),
+        (0.335, 0.31, WARM_LIGHT, WARM, "PRIMARY RESULT", "0/8 primary location gates\nin both raw-data applications"),
+        (0.68, 0.31, GREY_LIGHT, GREY_DARK, "SEPARATE EVIDENCE", "Faithfulness, causal anatomy and\nclinical utility"),
     ]
     for x0, width, face, edge, header, body in bands:
         ax.add_patch(FancyBboxPatch((x0, 0.18), width, 0.62, boxstyle="round,pad=0.012,rounding_size=0.012", facecolor=face, edgecolor=edge, linewidth=0.8))
@@ -948,9 +948,9 @@ def make_extended_data_figure_1(source_dir: Path, output_dir: Path) -> dict[str,
     ax.set_yticks([0, 1, 2])
     add_reference_grid(ax, "y")
     ax.text(0.98, 0.96, "0 pass both gates", transform=ax.transAxes, ha="right", va="top", fontsize=5.3, color=WARM, fontweight="bold")
-    unit_note(ax, "Post hoc source-availability audit.", y=-0.28)
+    unit_note(ax, "Fresh-source sensitivity from public URLs.", y=-0.28)
 
-    title = "Fresh-source reconstruction changes prediction but not the location verdict"
+    title = "Fresh-source reconstruction changes discrimination while preserving the location verdict"
     fig.suptitle(title, x=0.005, y=1.04, ha="left", fontsize=9.2, fontweight="bold")
     return save_figure(fig, output_dir, "ExtendedDataFigure1_ReconstructionDrift", height_mm, title)
 

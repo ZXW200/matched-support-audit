@@ -101,8 +101,8 @@ fresh-source reconstruction sensitivity are under `reproduction/`.
 
 ## Citation
 
-Wang, Z. *Matched-support auditing tests anatomical specificity in facial
-artificial intelligence*, version 1.0.4. Zenodo (2026).
+Wang, Z. *Matched-support auditing tests anatomical specificity in facial AI*,
+version 1.0.5. Zenodo (2026).
 [https://doi.org/10.5281/zenodo.21292743](https://doi.org/10.5281/zenodo.21292743).
 
 ## Third-party resources

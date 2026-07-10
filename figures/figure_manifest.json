@@ -25,7 +25,7 @@
   },
   {
     "stem": "Figure3_LegacyImageMatrixAudit",
-    "title": "A legacy image matrix fails to support named locations",
+    "title": "A legacy image matrix reveals distributed image-level signal",
     "width_mm": 183.0,
     "height_mm": 176.0,
     "formats": {
@@ -61,7 +61,7 @@
   },
   {
     "stem": "ExtendedDataFigure1_ReconstructionDrift",
-    "title": "Fresh-source reconstruction changes prediction but not the location verdict",
+    "title": "Fresh-source reconstruction changes discrimination while preserving the location verdict",
     "width_mm": 183.0,
     "height_mm": 88.0,
     "formats": {

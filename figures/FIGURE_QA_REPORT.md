@@ -6,94 +6,94 @@
 
 | Status | Check | Detail |
 |---|---|---|
-| PASS | Figure1_MatchedSpatialReference: svg exists | Figure1_MatchedSpatialReference.svg; 55008 bytes |
-| PASS | Figure1_MatchedSpatialReference: pdf exists | Figure1_MatchedSpatialReference.pdf; 58965 bytes |
-| PASS | Figure1_MatchedSpatialReference: tiff exists | Figure1_MatchedSpatialReference.tiff; 1491546 bytes |
-| PASS | Figure1_MatchedSpatialReference: png exists | Figure1_MatchedSpatialReference.png; 307289 bytes |
+| PASS | Figure1_MatchedSpatialReference: svg exists | Figure1_MatchedSpatialReference.svg; 55018 bytes |
+| PASS | Figure1_MatchedSpatialReference: pdf exists | Figure1_MatchedSpatialReference.pdf; 58174 bytes |
+| PASS | Figure1_MatchedSpatialReference: tiff exists | Figure1_MatchedSpatialReference.tiff; 1498308 bytes |
+| PASS | Figure1_MatchedSpatialReference: png exists | Figure1_MatchedSpatialReference.png; 311566 bytes |
 | PASS | Figure1_MatchedSpatialReference: PNG dimensions | observed=(2161, 1748); expected=(2161, 1748) |
-| PASS | Figure1_MatchedSpatialReference: PNG nonblank | pixel_sd=31.58; nonwhite=0.112 |
+| PASS | Figure1_MatchedSpatialReference: PNG nonblank | pixel_sd=31.83; nonwhite=0.113 |
 | PASS | Figure1_MatchedSpatialReference: PNG resolution | dpi=(299.9994, 299.9994) |
 | PASS | Figure1_MatchedSpatialReference: TIFF dimensions | observed=(4322, 3496); expected=(4323, 3496) |
 | PASS | Figure1_MatchedSpatialReference: TIFF resolution | dpi=(600.0, 600.0) |
-| PASS | Figure1_MatchedSpatialReference: TIFF nonblank | pixel_sd=32.31; nonwhite=0.109 |
+| PASS | Figure1_MatchedSpatialReference: TIFF nonblank | pixel_sd=32.56; nonwhite=0.109 |
 | PASS | Figure1_MatchedSpatialReference: PDF page count | pages=1 |
 | PASS | Figure1_MatchedSpatialReference: PDF media box | observed=(518.74, 419.53) pt; expected=(518.74, 419.53) pt |
-| PASS | Figure1_MatchedSpatialReference: PDF searchable text | characters=1381 |
+| PASS | Figure1_MatchedSpatialReference: PDF searchable text | characters=1391 |
 | PASS | Figure1_MatchedSpatialReference: SVG editable text | text_elements=86; embedded_images=0 |
 | PASS | Figure1_MatchedSpatialReference: no private path in SVG | matched_patterns=[] |
-| PASS | Figure2_SyntheticOperatingExperiments: svg exists | Figure2_SyntheticOperatingExperiments.svg; 48340 bytes |
-| PASS | Figure2_SyntheticOperatingExperiments: pdf exists | Figure2_SyntheticOperatingExperiments.pdf; 62576 bytes |
-| PASS | Figure2_SyntheticOperatingExperiments: tiff exists | Figure2_SyntheticOperatingExperiments.tiff; 1601680 bytes |
-| PASS | Figure2_SyntheticOperatingExperiments: png exists | Figure2_SyntheticOperatingExperiments.png; 216836 bytes |
+| PASS | Figure2_SyntheticOperatingExperiments: svg exists | Figure2_SyntheticOperatingExperiments.svg; 48297 bytes |
+| PASS | Figure2_SyntheticOperatingExperiments: pdf exists | Figure2_SyntheticOperatingExperiments.pdf; 61683 bytes |
+| PASS | Figure2_SyntheticOperatingExperiments: tiff exists | Figure2_SyntheticOperatingExperiments.tiff; 1599204 bytes |
+| PASS | Figure2_SyntheticOperatingExperiments: png exists | Figure2_SyntheticOperatingExperiments.png; 216380 bytes |
 | PASS | Figure2_SyntheticOperatingExperiments: PNG dimensions | observed=(2161, 1559); expected=(2161, 1559) |
-| PASS | Figure2_SyntheticOperatingExperiments: PNG nonblank | pixel_sd=51.48; nonwhite=0.241 |
+| PASS | Figure2_SyntheticOperatingExperiments: PNG nonblank | pixel_sd=51.46; nonwhite=0.241 |
 | PASS | Figure2_SyntheticOperatingExperiments: PNG resolution | dpi=(299.9994, 299.9994) |
 | PASS | Figure2_SyntheticOperatingExperiments: TIFF dimensions | observed=(4322, 3118); expected=(4323, 3118) |
 | PASS | Figure2_SyntheticOperatingExperiments: TIFF resolution | dpi=(600.0, 600.0) |
-| PASS | Figure2_SyntheticOperatingExperiments: TIFF nonblank | pixel_sd=51.88; nonwhite=0.240 |
+| PASS | Figure2_SyntheticOperatingExperiments: TIFF nonblank | pixel_sd=51.86; nonwhite=0.239 |
 | PASS | Figure2_SyntheticOperatingExperiments: PDF page count | pages=1 |
 | PASS | Figure2_SyntheticOperatingExperiments: PDF media box | observed=(518.74, 374.17) pt; expected=(518.74, 374.17) pt |
-| PASS | Figure2_SyntheticOperatingExperiments: PDF searchable text | characters=927 |
+| PASS | Figure2_SyntheticOperatingExperiments: PDF searchable text | characters=912 |
 | PASS | Figure2_SyntheticOperatingExperiments: SVG editable text | text_elements=86; embedded_images=5 |
 | PASS | Figure2_SyntheticOperatingExperiments: no private path in SVG | matched_patterns=[] |
-| PASS | Figure3_LegacyImageMatrixAudit: svg exists | Figure3_LegacyImageMatrixAudit.svg; 168059 bytes |
-| PASS | Figure3_LegacyImageMatrixAudit: pdf exists | Figure3_LegacyImageMatrixAudit.pdf; 71247 bytes |
-| PASS | Figure3_LegacyImageMatrixAudit: tiff exists | Figure3_LegacyImageMatrixAudit.tiff; 1905528 bytes |
-| PASS | Figure3_LegacyImageMatrixAudit: png exists | Figure3_LegacyImageMatrixAudit.png; 446308 bytes |
+| PASS | Figure3_LegacyImageMatrixAudit: svg exists | Figure3_LegacyImageMatrixAudit.svg; 168061 bytes |
+| PASS | Figure3_LegacyImageMatrixAudit: pdf exists | Figure3_LegacyImageMatrixAudit.pdf; 70819 bytes |
+| PASS | Figure3_LegacyImageMatrixAudit: tiff exists | Figure3_LegacyImageMatrixAudit.tiff; 1901128 bytes |
+| PASS | Figure3_LegacyImageMatrixAudit: png exists | Figure3_LegacyImageMatrixAudit.png; 446388 bytes |
 | PASS | Figure3_LegacyImageMatrixAudit: PNG dimensions | observed=(2161, 2078); expected=(2161, 2079) |
-| PASS | Figure3_LegacyImageMatrixAudit: PNG nonblank | pixel_sd=32.31; nonwhite=0.062 |
+| PASS | Figure3_LegacyImageMatrixAudit: PNG nonblank | pixel_sd=32.27; nonwhite=0.061 |
 | PASS | Figure3_LegacyImageMatrixAudit: PNG resolution | dpi=(299.9994, 299.9994) |
 | PASS | Figure3_LegacyImageMatrixAudit: TIFF dimensions | observed=(4322, 4157); expected=(4323, 4157) |
 | PASS | Figure3_LegacyImageMatrixAudit: TIFF resolution | dpi=(600.0, 600.0) |
-| PASS | Figure3_LegacyImageMatrixAudit: TIFF nonblank | pixel_sd=33.33; nonwhite=0.059 |
+| PASS | Figure3_LegacyImageMatrixAudit: TIFF nonblank | pixel_sd=33.28; nonwhite=0.059 |
 | PASS | Figure3_LegacyImageMatrixAudit: PDF page count | pages=1 |
 | PASS | Figure3_LegacyImageMatrixAudit: PDF media box | observed=(518.74, 498.90) pt; expected=(518.74, 498.90) pt |
-| PASS | Figure3_LegacyImageMatrixAudit: PDF searchable text | characters=1579 |
+| PASS | Figure3_LegacyImageMatrixAudit: PDF searchable text | characters=1569 |
 | PASS | Figure3_LegacyImageMatrixAudit: SVG editable text | text_elements=105; embedded_images=0 |
 | PASS | Figure3_LegacyImageMatrixAudit: no private path in SVG | matched_patterns=[] |
-| PASS | Figure4_PublicVideoStressTest: svg exists | Figure4_PublicVideoStressTest.svg; 79310 bytes |
-| PASS | Figure4_PublicVideoStressTest: pdf exists | Figure4_PublicVideoStressTest.pdf; 66475 bytes |
-| PASS | Figure4_PublicVideoStressTest: tiff exists | Figure4_PublicVideoStressTest.tiff; 1655608 bytes |
-| PASS | Figure4_PublicVideoStressTest: png exists | Figure4_PublicVideoStressTest.png; 304497 bytes |
+| PASS | Figure4_PublicVideoStressTest: svg exists | Figure4_PublicVideoStressTest.svg; 79277 bytes |
+| PASS | Figure4_PublicVideoStressTest: pdf exists | Figure4_PublicVideoStressTest.pdf; 66934 bytes |
+| PASS | Figure4_PublicVideoStressTest: tiff exists | Figure4_PublicVideoStressTest.tiff; 1647898 bytes |
+| PASS | Figure4_PublicVideoStressTest: png exists | Figure4_PublicVideoStressTest.png; 303522 bytes |
 | PASS | Figure4_PublicVideoStressTest: PNG dimensions | observed=(2161, 2173); expected=(2161, 2173) |
-| PASS | Figure4_PublicVideoStressTest: PNG nonblank | pixel_sd=33.70; nonwhite=0.102 |
+| PASS | Figure4_PublicVideoStressTest: PNG nonblank | pixel_sd=33.62; nonwhite=0.101 |
 | PASS | Figure4_PublicVideoStressTest: PNG resolution | dpi=(299.9994, 299.9994) |
 | PASS | Figure4_PublicVideoStressTest: TIFF dimensions | observed=(4322, 4346); expected=(4323, 4346) |
 | PASS | Figure4_PublicVideoStressTest: TIFF resolution | dpi=(600.0, 600.0) |
-| PASS | Figure4_PublicVideoStressTest: TIFF nonblank | pixel_sd=34.54; nonwhite=0.100 |
+| PASS | Figure4_PublicVideoStressTest: TIFF nonblank | pixel_sd=34.47; nonwhite=0.100 |
 | PASS | Figure4_PublicVideoStressTest: PDF page count | pages=1 |
 | PASS | Figure4_PublicVideoStressTest: PDF media box | observed=(518.74, 521.57) pt; expected=(518.74, 521.57) pt |
-| PASS | Figure4_PublicVideoStressTest: PDF searchable text | characters=1485 |
+| PASS | Figure4_PublicVideoStressTest: PDF searchable text | characters=1452 |
 | PASS | Figure4_PublicVideoStressTest: SVG editable text | text_elements=104; embedded_images=0 |
 | PASS | Figure4_PublicVideoStressTest: no private path in SVG | matched_patterns=[] |
-| PASS | Figure5_EvidenceBoundaries: svg exists | Figure5_EvidenceBoundaries.svg; 43682 bytes |
-| PASS | Figure5_EvidenceBoundaries: pdf exists | Figure5_EvidenceBoundaries.pdf; 61034 bytes |
-| PASS | Figure5_EvidenceBoundaries: tiff exists | Figure5_EvidenceBoundaries.tiff; 1426116 bytes |
-| PASS | Figure5_EvidenceBoundaries: png exists | Figure5_EvidenceBoundaries.png; 244662 bytes |
+| PASS | Figure5_EvidenceBoundaries: svg exists | Figure5_EvidenceBoundaries.svg; 43660 bytes |
+| PASS | Figure5_EvidenceBoundaries: pdf exists | Figure5_EvidenceBoundaries.pdf; 61294 bytes |
+| PASS | Figure5_EvidenceBoundaries: tiff exists | Figure5_EvidenceBoundaries.tiff; 1415066 bytes |
+| PASS | Figure5_EvidenceBoundaries: png exists | Figure5_EvidenceBoundaries.png; 239347 bytes |
 | PASS | Figure5_EvidenceBoundaries: PNG dimensions | observed=(2161, 1688); expected=(2161, 1689) |
-| PASS | Figure5_EvidenceBoundaries: PNG nonblank | pixel_sd=51.69; nonwhite=0.284 |
+| PASS | Figure5_EvidenceBoundaries: PNG nonblank | pixel_sd=51.57; nonwhite=0.284 |
 | PASS | Figure5_EvidenceBoundaries: PNG resolution | dpi=(299.9994, 299.9994) |
 | PASS | Figure5_EvidenceBoundaries: TIFF dimensions | observed=(4322, 3377); expected=(4323, 3378) |
 | PASS | Figure5_EvidenceBoundaries: TIFF resolution | dpi=(600.0, 600.0) |
-| PASS | Figure5_EvidenceBoundaries: TIFF nonblank | pixel_sd=52.22; nonwhite=0.283 |
+| PASS | Figure5_EvidenceBoundaries: TIFF nonblank | pixel_sd=52.09; nonwhite=0.283 |
 | PASS | Figure5_EvidenceBoundaries: PDF page count | pages=1 |
 | PASS | Figure5_EvidenceBoundaries: PDF media box | observed=(518.74, 405.35) pt; expected=(518.74, 405.35) pt |
-| PASS | Figure5_EvidenceBoundaries: PDF searchable text | characters=1153 |
+| PASS | Figure5_EvidenceBoundaries: PDF searchable text | characters=1129 |
 | PASS | Figure5_EvidenceBoundaries: SVG editable text | text_elements=78; embedded_images=0 |
 | PASS | Figure5_EvidenceBoundaries: no private path in SVG | matched_patterns=[] |
-| PASS | ExtendedDataFigure1_ReconstructionDrift: svg exists | ExtendedDataFigure1_ReconstructionDrift.svg; 31352 bytes |
-| PASS | ExtendedDataFigure1_ReconstructionDrift: pdf exists | ExtendedDataFigure1_ReconstructionDrift.pdf; 52632 bytes |
-| PASS | ExtendedDataFigure1_ReconstructionDrift: tiff exists | ExtendedDataFigure1_ReconstructionDrift.tiff; 1106902 bytes |
-| PASS | ExtendedDataFigure1_ReconstructionDrift: png exists | ExtendedDataFigure1_ReconstructionDrift.png; 127994 bytes |
+| PASS | ExtendedDataFigure1_ReconstructionDrift: svg exists | ExtendedDataFigure1_ReconstructionDrift.svg; 31380 bytes |
+| PASS | ExtendedDataFigure1_ReconstructionDrift: pdf exists | ExtendedDataFigure1_ReconstructionDrift.pdf; 52416 bytes |
+| PASS | ExtendedDataFigure1_ReconstructionDrift: tiff exists | ExtendedDataFigure1_ReconstructionDrift.tiff; 1107182 bytes |
+| PASS | ExtendedDataFigure1_ReconstructionDrift: png exists | ExtendedDataFigure1_ReconstructionDrift.png; 127902 bytes |
 | PASS | ExtendedDataFigure1_ReconstructionDrift: PNG dimensions | observed=(2161, 1039); expected=(2161, 1039) |
-| PASS | ExtendedDataFigure1_ReconstructionDrift: PNG nonblank | pixel_sd=35.25; nonwhite=0.215 |
+| PASS | ExtendedDataFigure1_ReconstructionDrift: PNG nonblank | pixel_sd=35.28; nonwhite=0.215 |
 | PASS | ExtendedDataFigure1_ReconstructionDrift: PNG resolution | dpi=(299.9994, 299.9994) |
 | PASS | ExtendedDataFigure1_ReconstructionDrift: TIFF dimensions | observed=(4322, 2078); expected=(4323, 2079) |
 | PASS | ExtendedDataFigure1_ReconstructionDrift: TIFF resolution | dpi=(600.0, 600.0) |
-| PASS | ExtendedDataFigure1_ReconstructionDrift: TIFF nonblank | pixel_sd=36.03; nonwhite=0.212 |
+| PASS | ExtendedDataFigure1_ReconstructionDrift: TIFF nonblank | pixel_sd=36.06; nonwhite=0.212 |
 | PASS | ExtendedDataFigure1_ReconstructionDrift: PDF page count | pages=1 |
 | PASS | ExtendedDataFigure1_ReconstructionDrift: PDF media box | observed=(518.74, 249.45) pt; expected=(518.74, 249.45) pt |
-| PASS | ExtendedDataFigure1_ReconstructionDrift: PDF searchable text | characters=588 |
+| PASS | ExtendedDataFigure1_ReconstructionDrift: PDF searchable text | characters=608 |
 | PASS | ExtendedDataFigure1_ReconstructionDrift: SVG editable text | text_elements=56; embedded_images=0 |
 | PASS | ExtendedDataFigure1_ReconstructionDrift: no private path in SVG | matched_patterns=[] |
 | PASS | source data: fig2_synthetic_operating_curve.csv | sha256=d47be372c59d59412c8cbeb688a75a7d81fdde5cee44425108d68ee5ecace627 |

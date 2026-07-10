@@ -207,7 +207,7 @@ L 219.997218 186.479269
     <text style="font-weight: 700; font-size: 6.2px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; fill: #355e82" transform="translate(234.313164 147.356455) rotate(-90)">CCA</text>
    </g>
    <g id="text_25">
-    <text style="font-weight: 700; font-size: 5.4px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #b66a5b" x="18.044907" y="407.465061" transform="rotate(-0 18.044907 407.465061)">A positive location margin is not a biomarker claim.</text>
+    <text style="font-weight: 700; font-size: 5.4px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #355e82" x="18.044907" y="407.465061" transform="rotate(-0 18.044907 407.465061)">CCA scope: support specificity and anatomical location.</text>
    </g>
   </g>
   <g id="axes_2">
@@ -671,7 +671,7 @@ z
     <text style="font-size: 4.8px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #262b33" x="439.458498" y="124.976762" transform="rotate(-0 439.458498 124.976762)">location margin</text>
    </g>
    <g id="text_46">
-    <text style="font-size: 4.7px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #5f6670" x="289.658707" y="140.942746" transform="rotate(-0 289.658707 140.942746)">Fresh fit per support; data, representation, estimator and split fixed.</text>
+    <text style="font-size: 4.7px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #5f6670" x="289.658707" y="140.942746" transform="rotate(-0 289.658707 140.942746)">Fresh fit per support. Data, representation, estimator and split fixed.</text>
    </g>
   </g>
   <g id="axes_3">
@@ -887,7 +887,7 @@ L 489.281575 218.331429
     <text style="font-size: 5.1px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #b66a5b" x="494.974363" y="266.49995" transform="rotate(-0 494.974363 266.49995)">named</text>
    </g>
    <g id="text_60">
-    <text style="font-size: 5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #5f6670" x="287.574536" y="275.927118" transform="rotate(-0 287.574536 275.927118)">Descriptive rule; not a p value</text>
+    <text style="font-size: 5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #5f6670" x="287.574536" y="275.927118" transform="rotate(-0 287.574536 275.927118)">Operational q97.5 spatial reference</text>
    </g>
    <g id="text_61">
     <text style="font-weight: 700; font-size: 7.2px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #262b33" x="285.316684" y="191.029059" transform="rotate(-0 285.316684 191.029059)">Location margin (claim 3)</text>
@@ -975,7 +975,7 @@ z
     <text style="font-weight: 700; font-size: 8.5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #262b33" x="264.996017" y="331.683415" transform="rotate(-0 264.996017 331.683415)">d</text>
    </g>
    <g id="text_63">
-    <text style="font-weight: 700; font-size: 7px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: start" x="285.316684" y="329.417348" transform="rotate(-0 285.316684 329.417348)">Non-equivalent evidence tiers</text>
+    <text style="font-weight: 700; font-size: 7px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: start" x="285.316684" y="329.417348" transform="rotate(-0 285.316684 329.417348)">Resource-specific evidence tiers</text>
    </g>
    <g id="text_64">
     <text style="font-weight: 700; font-size: 5.1px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #5f6670" x="287.574536" y="346.744307" transform="rotate(-0 287.574536 346.744307)">Resource</text>

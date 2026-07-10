@@ -1,5 +1,5 @@
 {
-  "title": "Matched-support auditing tests anatomical specificity in facial artificial intelligence",
+  "title": "Matched-support auditing tests anatomical specificity in facial AI",
   "upload_type": "software",
   "description": "Code, aggregate source data, protocols and publication figures for a matched-support audit of dataset-level regional predictive sufficiency. The release excludes the governance-limited PD-DBS matrix, reconstructed YouTube videos and identifiable facial images.",
   "creators": [
@@ -8,7 +8,7 @@
       "affiliation": "Lancaster University"
     }
   ],
-  "version": "1.0.4",
+  "version": "1.0.5",
   "license": "other-open",
   "keywords": [
     "explainable artificial intelligence",
