@@ -2,7 +2,7 @@
 
 ## Figure 1 | A matched spatial reference separates regional claims
 
-**a,** Seven inferential claims that require distinct evidence. Conditional coordinate analysis (CCA) addresses support specificity and anatomical location; it does not by itself test fixed-model explanation faithfulness, causal anatomy or clinical utility. **b,** Conditional estimand. With the dataset, representation, estimator and split held fixed, a fresh estimator is fitted to the named rectangle and to each same-shape translated rectangle. **c,** Operational location margin, defined as the named-support AUROC minus the 97.5th percentile of translated-support AUROCs. This is a descriptive gate, not a p value. **d,** Non-equivalent evidence tiers used in this study. A positive margin is not interpreted as a biomarker claim.
+**a,** Seven inferential claims that require distinct evidence. The Claim-Control Audit (CCA) addresses support specificity and anatomical location; it does not by itself test fixed-model explanation faithfulness, causal anatomy or clinical utility. **b,** Conditional estimand. With the dataset, representation, estimator and split held fixed, a fresh estimator is fitted to the named rectangle and to each same-shape translated rectangle. **c,** Operational location margin, defined as the named-support AUROC minus the 97.5th percentile of translated-support AUROCs. This is a descriptive gate, not a p value. **d,** Non-equivalent evidence tiers used in this study. A positive margin is not interpreted as a biomarker claim.
 
 ## Figure 2 | Operating experiments distinguish simulated mechanisms
 

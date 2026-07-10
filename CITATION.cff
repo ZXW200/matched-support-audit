@@ -6,7 +6,7 @@ authors:
   - family-names: Wang
     given-names: Zixu
     affiliation: Lancaster University
-version: 1.0.1
+version: 1.0.2
 date-released: 2026-07-10
 doi: 10.5281/zenodo.21292743
 repository-code: "https://github.com/ZXW200/matched-support-audit"
