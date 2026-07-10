@@ -1,0 +1,573 @@
+{
+  "backend": "Python/matplotlib/Pillow only",
+  "passed": 113,
+  "total": 113,
+  "all_passed": true,
+  "checks": [
+    {
+      "check": "Figure1_MatchedSpatialReference: svg exists",
+      "passed": true,
+      "detail": "Figure1_MatchedSpatialReference.svg; 44008 bytes"
+    },
+    {
+      "check": "Figure1_MatchedSpatialReference: pdf exists",
+      "passed": true,
+      "detail": "Figure1_MatchedSpatialReference.pdf; 57503 bytes"
+    },
+    {
+      "check": "Figure1_MatchedSpatialReference: tiff exists",
+      "passed": true,
+      "detail": "Figure1_MatchedSpatialReference.tiff; 1450962 bytes"
+    },
+    {
+      "check": "Figure1_MatchedSpatialReference: png exists",
+      "passed": true,
+      "detail": "Figure1_MatchedSpatialReference.png; 284415 bytes"
+    },
+    {
+      "check": "Figure1_MatchedSpatialReference: PNG dimensions",
+      "passed": true,
+      "detail": "observed=(2161, 1748); expected=(2161, 1748)"
+    },
+    {
+      "check": "Figure1_MatchedSpatialReference: PNG nonblank",
+      "passed": true,
+      "detail": "pixel_sd=30.83; nonwhite=0.123"
+    },
+    {
+      "check": "Figure1_MatchedSpatialReference: PNG resolution",
+      "passed": true,
+      "detail": "dpi=(299.9994, 299.9994)"
+    },
+    {
+      "check": "Figure1_MatchedSpatialReference: TIFF dimensions",
+      "passed": true,
+      "detail": "observed=(4322, 3496); expected=(4323, 3496)"
+    },
+    {
+      "check": "Figure1_MatchedSpatialReference: TIFF resolution",
+      "passed": true,
+      "detail": "dpi=(600.0, 600.0)"
+    },
+    {
+      "check": "Figure1_MatchedSpatialReference: TIFF nonblank",
+      "passed": true,
+      "detail": "pixel_sd=31.52; nonwhite=0.119"
+    },
+    {
+      "check": "Figure1_MatchedSpatialReference: PDF page count",
+      "passed": true,
+      "detail": "pages=1"
+    },
+    {
+      "check": "Figure1_MatchedSpatialReference: PDF media box",
+      "passed": true,
+      "detail": "observed=(518.74, 419.53) pt; expected=(518.74, 419.53) pt"
+    },
+    {
+      "check": "Figure1_MatchedSpatialReference: PDF searchable text",
+      "passed": true,
+      "detail": "characters=1276"
+    },
+    {
+      "check": "Figure1_MatchedSpatialReference: SVG editable text",
+      "passed": true,
+      "detail": "text_elements=75; embedded_images=0"
+    },
+    {
+      "check": "Figure1_MatchedSpatialReference: no private path in SVG",
+      "passed": true,
+      "detail": "matched_patterns=[]"
+    },
+    {
+      "check": "Figure2_SyntheticOperatingExperiments: svg exists",
+      "passed": true,
+      "detail": "Figure2_SyntheticOperatingExperiments.svg; 49475 bytes"
+    },
+    {
+      "check": "Figure2_SyntheticOperatingExperiments: pdf exists",
+      "passed": true,
+      "detail": "Figure2_SyntheticOperatingExperiments.pdf; 62553 bytes"
+    },
+    {
+      "check": "Figure2_SyntheticOperatingExperiments: tiff exists",
+      "passed": true,
+      "detail": "Figure2_SyntheticOperatingExperiments.tiff; 1601680 bytes"
+    },
+    {
+      "check": "Figure2_SyntheticOperatingExperiments: png exists",
+      "passed": true,
+      "detail": "Figure2_SyntheticOperatingExperiments.png; 216836 bytes"
+    },
+    {
+      "check": "Figure2_SyntheticOperatingExperiments: PNG dimensions",
+      "passed": true,
+      "detail": "observed=(2161, 1559); expected=(2161, 1559)"
+    },
+    {
+      "check": "Figure2_SyntheticOperatingExperiments: PNG nonblank",
+      "passed": true,
+      "detail": "pixel_sd=51.48; nonwhite=0.241"
+    },
+    {
+      "check": "Figure2_SyntheticOperatingExperiments: PNG resolution",
+      "passed": true,
+      "detail": "dpi=(299.9994, 299.9994)"
+    },
+    {
+      "check": "Figure2_SyntheticOperatingExperiments: TIFF dimensions",
+      "passed": true,
+      "detail": "observed=(4322, 3118); expected=(4323, 3118)"
+    },
+    {
+      "check": "Figure2_SyntheticOperatingExperiments: TIFF resolution",
+      "passed": true,
+      "detail": "dpi=(600.0, 600.0)"
+    },
+    {
+      "check": "Figure2_SyntheticOperatingExperiments: TIFF nonblank",
+      "passed": true,
+      "detail": "pixel_sd=51.88; nonwhite=0.240"
+    },
+    {
+      "check": "Figure2_SyntheticOperatingExperiments: PDF page count",
+      "passed": true,
+      "detail": "pages=1"
+    },
+    {
+      "check": "Figure2_SyntheticOperatingExperiments: PDF media box",
+      "passed": true,
+      "detail": "observed=(518.74, 374.17) pt; expected=(518.74, 374.17) pt"
+    },
+    {
+      "check": "Figure2_SyntheticOperatingExperiments: PDF searchable text",
+      "passed": true,
+      "detail": "characters=927"
+    },
+    {
+      "check": "Figure2_SyntheticOperatingExperiments: SVG editable text",
+      "passed": true,
+      "detail": "text_elements=86; embedded_images=5"
+    },
+    {
+      "check": "Figure2_SyntheticOperatingExperiments: no private path in SVG",
+      "passed": true,
+      "detail": "matched_patterns=[]"
+    },
+    {
+      "check": "Figure3_LegacyImageMatrixAudit: svg exists",
+      "passed": true,
+      "detail": "Figure3_LegacyImageMatrixAudit.svg; 171102 bytes"
+    },
+    {
+      "check": "Figure3_LegacyImageMatrixAudit: pdf exists",
+      "passed": true,
+      "detail": "Figure3_LegacyImageMatrixAudit.pdf; 71249 bytes"
+    },
+    {
+      "check": "Figure3_LegacyImageMatrixAudit: tiff exists",
+      "passed": true,
+      "detail": "Figure3_LegacyImageMatrixAudit.tiff; 1910760 bytes"
+    },
+    {
+      "check": "Figure3_LegacyImageMatrixAudit: png exists",
+      "passed": true,
+      "detail": "Figure3_LegacyImageMatrixAudit.png; 448382 bytes"
+    },
+    {
+      "check": "Figure3_LegacyImageMatrixAudit: PNG dimensions",
+      "passed": true,
+      "detail": "observed=(2161, 2078); expected=(2161, 2079)"
+    },
+    {
+      "check": "Figure3_LegacyImageMatrixAudit: PNG nonblank",
+      "passed": true,
+      "detail": "pixel_sd=32.34; nonwhite=0.062"
+    },
+    {
+      "check": "Figure3_LegacyImageMatrixAudit: PNG resolution",
+      "passed": true,
+      "detail": "dpi=(299.9994, 299.9994)"
+    },
+    {
+      "check": "Figure3_LegacyImageMatrixAudit: TIFF dimensions",
+      "passed": true,
+      "detail": "observed=(4322, 4157); expected=(4323, 4157)"
+    },
+    {
+      "check": "Figure3_LegacyImageMatrixAudit: TIFF resolution",
+      "passed": true,
+      "detail": "dpi=(600.0, 600.0)"
+    },
+    {
+      "check": "Figure3_LegacyImageMatrixAudit: TIFF nonblank",
+      "passed": true,
+      "detail": "pixel_sd=33.35; nonwhite=0.059"
+    },
+    {
+      "check": "Figure3_LegacyImageMatrixAudit: PDF page count",
+      "passed": true,
+      "detail": "pages=1"
+    },
+    {
+      "check": "Figure3_LegacyImageMatrixAudit: PDF media box",
+      "passed": true,
+      "detail": "observed=(518.74, 498.90) pt; expected=(518.74, 498.90) pt"
+    },
+    {
+      "check": "Figure3_LegacyImageMatrixAudit: PDF searchable text",
+      "passed": true,
+      "detail": "characters=1590"
+    },
+    {
+      "check": "Figure3_LegacyImageMatrixAudit: SVG editable text",
+      "passed": true,
+      "detail": "text_elements=106; embedded_images=0"
+    },
+    {
+      "check": "Figure3_LegacyImageMatrixAudit: no private path in SVG",
+      "passed": true,
+      "detail": "matched_patterns=[]"
+    },
+    {
+      "check": "Figure4_PublicVideoStressTest: svg exists",
+      "passed": true,
+      "detail": "Figure4_PublicVideoStressTest.svg; 81528 bytes"
+    },
+    {
+      "check": "Figure4_PublicVideoStressTest: pdf exists",
+      "passed": true,
+      "detail": "Figure4_PublicVideoStressTest.pdf; 66452 bytes"
+    },
+    {
+      "check": "Figure4_PublicVideoStressTest: tiff exists",
+      "passed": true,
+      "detail": "Figure4_PublicVideoStressTest.tiff; 1655608 bytes"
+    },
+    {
+      "check": "Figure4_PublicVideoStressTest: png exists",
+      "passed": true,
+      "detail": "Figure4_PublicVideoStressTest.png; 304497 bytes"
+    },
+    {
+      "check": "Figure4_PublicVideoStressTest: PNG dimensions",
+      "passed": true,
+      "detail": "observed=(2161, 2173); expected=(2161, 2173)"
+    },
+    {
+      "check": "Figure4_PublicVideoStressTest: PNG nonblank",
+      "passed": true,
+      "detail": "pixel_sd=33.70; nonwhite=0.102"
+    },
+    {
+      "check": "Figure4_PublicVideoStressTest: PNG resolution",
+      "passed": true,
+      "detail": "dpi=(299.9994, 299.9994)"
+    },
+    {
+      "check": "Figure4_PublicVideoStressTest: TIFF dimensions",
+      "passed": true,
+      "detail": "observed=(4322, 4346); expected=(4323, 4346)"
+    },
+    {
+      "check": "Figure4_PublicVideoStressTest: TIFF resolution",
+      "passed": true,
+      "detail": "dpi=(600.0, 600.0)"
+    },
+    {
+      "check": "Figure4_PublicVideoStressTest: TIFF nonblank",
+      "passed": true,
+      "detail": "pixel_sd=34.54; nonwhite=0.100"
+    },
+    {
+      "check": "Figure4_PublicVideoStressTest: PDF page count",
+      "passed": true,
+      "detail": "pages=1"
+    },
+    {
+      "check": "Figure4_PublicVideoStressTest: PDF media box",
+      "passed": true,
+      "detail": "observed=(518.74, 521.57) pt; expected=(518.74, 521.57) pt"
+    },
+    {
+      "check": "Figure4_PublicVideoStressTest: PDF searchable text",
+      "passed": true,
+      "detail": "characters=1485"
+    },
+    {
+      "check": "Figure4_PublicVideoStressTest: SVG editable text",
+      "passed": true,
+      "detail": "text_elements=104; embedded_images=0"
+    },
+    {
+      "check": "Figure4_PublicVideoStressTest: no private path in SVG",
+      "passed": true,
+      "detail": "matched_patterns=[]"
+    },
+    {
+      "check": "Figure5_EvidenceBoundaries: svg exists",
+      "passed": true,
+      "detail": "Figure5_EvidenceBoundaries.svg; 44835 bytes"
+    },
+    {
+      "check": "Figure5_EvidenceBoundaries: pdf exists",
+      "passed": true,
+      "detail": "Figure5_EvidenceBoundaries.pdf; 61011 bytes"
+    },
+    {
+      "check": "Figure5_EvidenceBoundaries: tiff exists",
+      "passed": true,
+      "detail": "Figure5_EvidenceBoundaries.tiff; 1426116 bytes"
+    },
+    {
+      "check": "Figure5_EvidenceBoundaries: png exists",
+      "passed": true,
+      "detail": "Figure5_EvidenceBoundaries.png; 244662 bytes"
+    },
+    {
+      "check": "Figure5_EvidenceBoundaries: PNG dimensions",
+      "passed": true,
+      "detail": "observed=(2161, 1688); expected=(2161, 1689)"
+    },
+    {
+      "check": "Figure5_EvidenceBoundaries: PNG nonblank",
+      "passed": true,
+      "detail": "pixel_sd=51.69; nonwhite=0.284"
+    },
+    {
+      "check": "Figure5_EvidenceBoundaries: PNG resolution",
+      "passed": true,
+      "detail": "dpi=(299.9994, 299.9994)"
+    },
+    {
+      "check": "Figure5_EvidenceBoundaries: TIFF dimensions",
+      "passed": true,
+      "detail": "observed=(4322, 3377); expected=(4323, 3378)"
+    },
+    {
+      "check": "Figure5_EvidenceBoundaries: TIFF resolution",
+      "passed": true,
+      "detail": "dpi=(600.0, 600.0)"
+    },
+    {
+      "check": "Figure5_EvidenceBoundaries: TIFF nonblank",
+      "passed": true,
+      "detail": "pixel_sd=52.22; nonwhite=0.283"
+    },
+    {
+      "check": "Figure5_EvidenceBoundaries: PDF page count",
+      "passed": true,
+      "detail": "pages=1"
+    },
+    {
+      "check": "Figure5_EvidenceBoundaries: PDF media box",
+      "passed": true,
+      "detail": "observed=(518.74, 405.35) pt; expected=(518.74, 405.35) pt"
+    },
+    {
+      "check": "Figure5_EvidenceBoundaries: PDF searchable text",
+      "passed": true,
+      "detail": "characters=1153"
+    },
+    {
+      "check": "Figure5_EvidenceBoundaries: SVG editable text",
+      "passed": true,
+      "detail": "text_elements=78; embedded_images=0"
+    },
+    {
+      "check": "Figure5_EvidenceBoundaries: no private path in SVG",
+      "passed": true,
+      "detail": "matched_patterns=[]"
+    },
+    {
+      "check": "ExtendedDataFigure1_ReconstructionDrift: svg exists",
+      "passed": true,
+      "detail": "ExtendedDataFigure1_ReconstructionDrift.svg; 32237 bytes"
+    },
+    {
+      "check": "ExtendedDataFigure1_ReconstructionDrift: pdf exists",
+      "passed": true,
+      "detail": "ExtendedDataFigure1_ReconstructionDrift.pdf; 52609 bytes"
+    },
+    {
+      "check": "ExtendedDataFigure1_ReconstructionDrift: tiff exists",
+      "passed": true,
+      "detail": "ExtendedDataFigure1_ReconstructionDrift.tiff; 1106902 bytes"
+    },
+    {
+      "check": "ExtendedDataFigure1_ReconstructionDrift: png exists",
+      "passed": true,
+      "detail": "ExtendedDataFigure1_ReconstructionDrift.png; 127994 bytes"
+    },
+    {
+      "check": "ExtendedDataFigure1_ReconstructionDrift: PNG dimensions",
+      "passed": true,
+      "detail": "observed=(2161, 1039); expected=(2161, 1039)"
+    },
+    {
+      "check": "ExtendedDataFigure1_ReconstructionDrift: PNG nonblank",
+      "passed": true,
+      "detail": "pixel_sd=35.25; nonwhite=0.215"
+    },
+    {
+      "check": "ExtendedDataFigure1_ReconstructionDrift: PNG resolution",
+      "passed": true,
+      "detail": "dpi=(299.9994, 299.9994)"
+    },
+    {
+      "check": "ExtendedDataFigure1_ReconstructionDrift: TIFF dimensions",
+      "passed": true,
+      "detail": "observed=(4322, 2078); expected=(4323, 2079)"
+    },
+    {
+      "check": "ExtendedDataFigure1_ReconstructionDrift: TIFF resolution",
+      "passed": true,
+      "detail": "dpi=(600.0, 600.0)"
+    },
+    {
+      "check": "ExtendedDataFigure1_ReconstructionDrift: TIFF nonblank",
+      "passed": true,
+      "detail": "pixel_sd=36.03; nonwhite=0.212"
+    },
+    {
+      "check": "ExtendedDataFigure1_ReconstructionDrift: PDF page count",
+      "passed": true,
+      "detail": "pages=1"
+    },
+    {
+      "check": "ExtendedDataFigure1_ReconstructionDrift: PDF media box",
+      "passed": true,
+      "detail": "observed=(518.74, 249.45) pt; expected=(518.74, 249.45) pt"
+    },
+    {
+      "check": "ExtendedDataFigure1_ReconstructionDrift: PDF searchable text",
+      "passed": true,
+      "detail": "characters=588"
+    },
+    {
+      "check": "ExtendedDataFigure1_ReconstructionDrift: SVG editable text",
+      "passed": true,
+      "detail": "text_elements=56; embedded_images=0"
+    },
+    {
+      "check": "ExtendedDataFigure1_ReconstructionDrift: no private path in SVG",
+      "passed": true,
+      "detail": "matched_patterns=[]"
+    },
+    {
+      "check": "source data: fig2_synthetic_operating_curve.csv",
+      "passed": true,
+      "detail": "sha256=d47be372c59d59412c8cbeb688a75a7d81fdde5cee44425108d68ee5ecace627"
+    },
+    {
+      "check": "source data: fig2_mechanism_tasks.csv",
+      "passed": true,
+      "detail": "sha256=f73c7d727cf6b1efcccd131cb537ee1ff94c26c5c76c6b8aa0f640620a22294d"
+    },
+    {
+      "check": "source data: fig3_similarity_filter.csv",
+      "passed": true,
+      "detail": "sha256=7eb13a511c4874eea56d61e0f5def7edb2efac61a974564f4812ffc563e02b9b"
+    },
+    {
+      "check": "source data: fig3_pd_roi_summary.csv",
+      "passed": true,
+      "detail": "sha256=df6a5e722cb7e68e937e415c7a572b9ecf3e9c36e23cf98d4827bbb595de33fa"
+    },
+    {
+      "check": "source data: fig3_pd_translated_supports.csv",
+      "passed": true,
+      "detail": "sha256=8177f698a7f821c6dd78a33e619baa0413f9f37c6fc8429cfda36ef20525dcb2"
+    },
+    {
+      "check": "source data: fig3_random_pixel_budgets.csv",
+      "passed": true,
+      "detail": "sha256=b877e037de7f10eb906e33f91cb8350b225be1bf8ecc3c28a40e8327c63ea622"
+    },
+    {
+      "check": "source data: fig3_distributed_controls.csv",
+      "passed": true,
+      "detail": "sha256=8ca5d5ce88b79a8f86b2615e67780aea3bc7cb62d338626f0a17f8cff1df156b"
+    },
+    {
+      "check": "source data: fig3_detector_conditions.csv",
+      "passed": true,
+      "detail": "sha256=54a97cabf3c16698d6dfd0b50f1c7dbdd51e0755c7e104f04a7943d15b77275d"
+    },
+    {
+      "check": "source data: fig3_detector_shuffle.csv",
+      "passed": true,
+      "detail": "sha256=91182e60e1984e78d6ff92aab4eeec880dcb0e4af2c19df38902a6dad5b79997"
+    },
+    {
+      "check": "source data: fig4_cohort_flow.csv",
+      "passed": true,
+      "detail": "sha256=9f6700be7b1aaf2597cf77faf9f35b7d796280004e75522d804b8cbaa8245512"
+    },
+    {
+      "check": "source data: fig4_youtubepd_roi_summary.csv",
+      "passed": true,
+      "detail": "sha256=1c3d73368d084e84cf5c3a9dc5881112e9f11b28f8207403f1f4b64ecd6f1b80"
+    },
+    {
+      "check": "source data: fig4_youtubepd_translated_supports.csv",
+      "passed": true,
+      "detail": "sha256=6d4889998366bc6bebbce45cd63e250deace9ce38255ee4f3a57d804f7581979"
+    },
+    {
+      "check": "source data: fig4_rbf_roi_summary.csv",
+      "passed": true,
+      "detail": "sha256=042a659cef5488f9bfb2f88e315020bbf1ac7be25eff7abe6e48ad4bf07aa093"
+    },
+    {
+      "check": "source data: fig4_competing_supports.csv",
+      "passed": true,
+      "detail": "sha256=04d25ce7d8563c8bb2396945db44a454e40fb9a458b2f296da2c26f71035b3ee"
+    },
+    {
+      "check": "source data: fig4_year_distribution.csv",
+      "passed": true,
+      "detail": "sha256=e3ff5d044a9cb3f474580dc1558e778cb81e5710c132a91a45162d71e6553fe0"
+    },
+    {
+      "check": "source data: fig4_year_matched_controls.csv",
+      "passed": true,
+      "detail": "sha256=94a5f4ac8cb1e45ec80a6a428473bdea4e711ee778d80fb076321a476f06ec28"
+    },
+    {
+      "check": "source data: fig4_collection_time_summary.csv",
+      "passed": true,
+      "detail": "sha256=1ea06b7abd854def5290d97fbbb06c396a088d2161778895af1a78b7421bb211"
+    },
+    {
+      "check": "source data: fig5_park_benchmark.csv",
+      "passed": true,
+      "detail": "sha256=abce8bf50bb512f85565198413534dbd5989812e7fd5a8fdab96b9623bff08b9"
+    },
+    {
+      "check": "source data: fig5_park_feature_groups.csv",
+      "passed": true,
+      "detail": "sha256=6a1c3e9da661766c325f15ce00b55a6e3565d7ff259a8e4c0330779376058a35"
+    },
+    {
+      "check": "source data: fig5_evidence_matrix.csv",
+      "passed": true,
+      "detail": "sha256=40a7e3cf3040ab4b0419d0d52820a0ea511a0dba3bbc3469e2328a49ea4bed91"
+    },
+    {
+      "check": "source data: extended_youtubepd_reconstruction_drift.csv",
+      "passed": true,
+      "detail": "sha256=6a7159470727d64a3a675523fc28c2b3e4b6253b353b8eddc5fcf2b02f2c846a"
+    },
+    {
+      "check": "source data: extended_youtubepd_common_cohort.csv",
+      "passed": true,
+      "detail": "sha256=ccb95dcbfebf654be25c55b34e46da70aa254521fadfb21c95f333d7abb6eab3"
+    },
+    {
+      "check": "Contact sheet",
+      "passed": true,
+      "detail": "figure_contact_sheet.png"
+    }
+  ]
+}

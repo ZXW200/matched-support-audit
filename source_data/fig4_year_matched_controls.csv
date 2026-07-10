@@ -1,0 +1,8 @@
+condition,caliper_years,matched_pairs,matched_clips,grouped_cv_folds,grouped_cv_auroc_mean,grouped_cv_auroc_sd,n_features
+year_only,3,21,42,50,0.5927500000000001,0.0626599992834669,1
+all_acquisition_metadata,3,21,42,50,0.61,0.1820027472320129,6
+aligned_face_normalized,3,21,42,50,0.76,0.1658696931390446,2048
+aligned_face_dynamics_only,3,21,42,50,0.6519999999999999,0.1909388725776511,1024
+aligned_middle_third,3,21,42,50,0.6780000000000002,0.2301807187088139,640
+whole_frame_context,3,21,42,50,0.7769999999999999,0.1414339825804655,2048
+context_with_face_masked,3,21,42,50,0.6859999999999999,0.1324667844389371,2048

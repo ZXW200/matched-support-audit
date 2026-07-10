@@ -1,0 +1,16 @@
+{
+  "repositories": {
+    "YouTubePD-data": {
+      "url": "https://github.com/samwli/YouTubePD-data.git",
+      "commit": "43797386a65ffb58db53628b90ef8e8f35512e0d"
+    },
+    "UFNet": {
+      "url": "https://github.com/ROC-HCI/UFNet.git",
+      "commit": "5ece2c65ba184faccf6c8cdccdc03132427c464b"
+    }
+  },
+  "face_landmarker": {
+    "url": "https://storage.googleapis.com/mediapipe-models/face_landmarker/face_landmarker/float16/1/face_landmarker.task",
+    "sha256": "64184e229b263107bc2b804c6625db1341ff2bb731874b0bcc2fe6544e0bc9ff"
+  }
+}

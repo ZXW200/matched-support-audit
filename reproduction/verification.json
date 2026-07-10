@@ -1,0 +1,295 @@
+{
+  "all_passed": true,
+  "checks_passed": 41,
+  "checks_total": 41,
+  "checks": [
+    {
+      "name": "synthetic.0.0.detections",
+      "observed": 2,
+      "expected": 2,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "synthetic.0.0.repetitions",
+      "observed": 30,
+      "expected": 30,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "synthetic.0.01.detections",
+      "observed": 1,
+      "expected": 1,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "synthetic.0.01.repetitions",
+      "observed": 15,
+      "expected": 15,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "synthetic.0.02.detections",
+      "observed": 4,
+      "expected": 4,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "synthetic.0.02.repetitions",
+      "observed": 15,
+      "expected": 15,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "synthetic.0.03.detections",
+      "observed": 8,
+      "expected": 8,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "synthetic.0.03.repetitions",
+      "observed": 15,
+      "expected": 15,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "synthetic.0.04.detections",
+      "observed": 12,
+      "expected": 12,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "synthetic.0.04.repetitions",
+      "observed": 15,
+      "expected": 15,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "synthetic.0.05.detections",
+      "observed": 15,
+      "expected": 15,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "synthetic.0.05.repetitions",
+      "observed": 15,
+      "expected": 15,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "synthetic.0.1.detections",
+      "observed": 15,
+      "expected": 15,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "synthetic.0.1.repetitions",
+      "observed": 15,
+      "expected": 15,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "synthetic.0.2.detections",
+      "observed": 15,
+      "expected": 15,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "synthetic.0.2.repetitions",
+      "observed": 15,
+      "expected": 15,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "synthetic.0.4.detections",
+      "observed": 15,
+      "expected": 15,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "synthetic.0.4.repetitions",
+      "observed": 15,
+      "expected": 15,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "mechanism.roi_localised.target_roi_auroc",
+      "observed": 1.0,
+      "expected": 1.0,
+      "tolerance": 1e-08,
+      "passed": true
+    },
+    {
+      "name": "mechanism.roi_localised.random_exact_q975",
+      "observed": 0.9276438888888888,
+      "expected": 0.9276438888888888,
+      "tolerance": 1e-08,
+      "passed": true
+    },
+    {
+      "name": "mechanism.border_shortcut.target_roi_auroc",
+      "observed": 0.5004972222222223,
+      "expected": 0.5004972222222223,
+      "tolerance": 1e-08,
+      "passed": true
+    },
+    {
+      "name": "mechanism.border_shortcut.border_auroc",
+      "observed": 1.0,
+      "expected": 1.0,
+      "tolerance": 1e-08,
+      "passed": true
+    },
+    {
+      "name": "mechanism.distributed_low_frequency.pool_8x8_auroc",
+      "observed": 1.0,
+      "expected": 1.0,
+      "tolerance": 1e-08,
+      "passed": true
+    },
+    {
+      "name": "mechanism.distributed_low_frequency.pool_1x1_auroc",
+      "observed": 0.5205888888888889,
+      "expected": 0.5205888888888889,
+      "tolerance": 1e-08,
+      "passed": true
+    },
+    {
+      "name": "youtubepd.primary_cohort_clips_before_qc",
+      "observed": 112,
+      "expected": 112,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "youtubepd.clips_after_qc",
+      "observed": 109,
+      "expected": 109,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "youtubepd.test_clips",
+      "observed": 24,
+      "expected": 24,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "youtubepd.named_rois_passing_holdout_location_gate",
+      "observed": 0,
+      "expected": 0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "youtubepd.named_rois_passing_both_location_gates",
+      "observed": 0,
+      "expected": 0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "youtubepd.aligned_face_holdout_auroc",
+      "observed": 0.965034965034965,
+      "expected": 0.965034965034965,
+      "tolerance": 1e-08,
+      "passed": true
+    },
+    {
+      "name": "youtubepd.whole_frame_holdout_auroc",
+      "observed": 0.93006993006993,
+      "expected": 0.93006993006993,
+      "tolerance": 1e-08,
+      "passed": true
+    },
+    {
+      "name": "youtubepd.face_masked_context_holdout_auroc",
+      "observed": 0.8601398601398602,
+      "expected": 0.8601398601398602,
+      "tolerance": 1e-08,
+      "passed": true
+    },
+    {
+      "name": "youtubepd.metadata_only_holdout_auroc",
+      "observed": 0.8741258741258742,
+      "expected": 0.8741258741258742,
+      "tolerance": 1e-08,
+      "passed": true
+    },
+    {
+      "name": "youtubepd_rbf.full_face_holdout_auroc",
+      "observed": 0.916083916083916,
+      "expected": 0.916083916083916,
+      "tolerance": 1e-08,
+      "passed": true
+    },
+    {
+      "name": "youtubepd_rbf.named_rois_passing_holdout_gate",
+      "observed": 1,
+      "expected": 1,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "youtubepd_rbf.named_rois_passing_both_gates",
+      "observed": 0,
+      "expected": 0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "park.train_plus_dev_participants",
+      "observed": 1245,
+      "expected": 1245,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "park.test_participants",
+      "observed": 116,
+      "expected": 116,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "park.participant_auroc",
+      "observed": 0.8560357675111774,
+      "expected": 0.8560357675111774,
+      "tolerance": 1e-08,
+      "passed": true
+    },
+    {
+      "name": "park.participant_auprc",
+      "observed": 0.8186813462447392,
+      "expected": 0.8186813462447392,
+      "tolerance": 1e-08,
+      "passed": true
+    },
+    {
+      "name": "park.participant_balanced_accuracy",
+      "observed": 0.7970193740685544,
+      "expected": 0.7970193740685544,
+      "tolerance": 1e-08,
+      "passed": true
+    }
+  ],
+  "boundary": "Verification covers deterministic analysis from the available third-party inputs. It does not guarantee future availability or byte identity of remote videos."
+}

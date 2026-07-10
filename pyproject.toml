@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "matched-support-audit"
+version = "1.0.0"
+description = "Matched-support auditing of regional predictive sufficiency"
+requires-python = ">=3.13,<3.14"
+dependencies = [
+  "numpy==2.2.6",
+  "pandas==2.3.3",
+  "Pillow==12.2.0",
+  "matplotlib==3.10.7",
+  "opencv-python==4.13.0.92",
+  "opencv-contrib-python==4.13.0.92",
+  "scipy==1.15.3",
+  "scikit-learn==1.7.2",
+  "mediapipe==0.10.32",
+  "networkx==3.5",
+  "openpyxl==3.1.5",
+  "imageio-ffmpeg==0.6.0",
+  "yt-dlp==2026.6.9",
+  "pypdf==6.9.0",
+  "tifffile==2026.6.1",
+]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]

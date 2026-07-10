@@ -1,0 +1,33 @@
+{
+  "title": "Matched-support auditing tests anatomical specificity in facial artificial intelligence",
+  "upload_type": "software",
+  "description": "Code, aggregate source data, protocols and publication figures for a matched-support audit of dataset-level regional predictive sufficiency. The release excludes the governance-limited PD-DBS matrix, reconstructed YouTube videos and identifiable facial images.",
+  "creators": [
+    {
+      "name": "Wang, Zixu",
+      "affiliation": "Lancaster University"
+    }
+  ],
+  "version": "1.0.0",
+  "license": "other-open",
+  "keywords": [
+    "explainable artificial intelligence",
+    "shortcut learning",
+    "medical artificial intelligence",
+    "regional predictive sufficiency",
+    "Parkinson disease"
+  ],
+  "notes": "Dual-licensed release: Python source code under MIT; aggregate source data, figures, protocols, documentation and reproduction reports under CC BY 4.0. Third-party materials are excluded and retain their original terms.",
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/samwli/YouTubePD-data",
+      "relation": "isSupplementedBy",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://github.com/ROC-HCI/UFNet",
+      "relation": "isSupplementedBy",
+      "scheme": "url"
+    }
+  ]
+}

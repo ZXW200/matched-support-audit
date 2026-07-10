@@ -1,0 +1,11 @@
+This release uses two open licences.
+
+1. Python source code under `src/` and `scripts/` is licensed under the MIT
+   License. See `LICENSE-CODE`.
+
+2. Aggregate source data, publication figures, protocols, documentation and
+   reproduction reports are licensed under the Creative Commons Attribution
+   4.0 International License (CC BY 4.0). See `LICENSE-CONTENT`.
+
+Third-party repositories, models, source spreadsheets and remote videos are
+not relicensed by this release. Their original terms continue to apply.

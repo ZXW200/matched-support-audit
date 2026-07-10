@@ -1,0 +1,8 @@
+control,group,auroc
+Outside ROI union,spatial control,0.917362604540024
+One-pixel border,spatial control,0.9220221027479092
+Random third 1,spatial control,0.9812186379928316
+Random third 2,spatial control,0.9848745519713262
+Random third 3,spatial control,0.979695340501792
+Pooling 8 x 8,coarse representation,0.977362604540024
+Global mean,coarse representation,0.5056093189964158

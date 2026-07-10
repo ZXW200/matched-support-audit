@@ -1,0 +1,23 @@
+file,figure,panel,unit,description,source,sha256
+fig2_synthetic_operating_curve.csv,2,a-b,simulation repetition,"Detection counts, rates and Wilson intervals by injected effect.",clean-room synthetic combined verdict,d47be372c59d59412c8cbeb688a75a7d81fdde5cee44425108d68ee5ecace627
+fig2_mechanism_tasks.csv,2,c-d,synthetic task,"Known local, border, distributed and misplaced-support task metrics.",clean-room mechanism verdict,f73c7d727cf6b1efcccd131cb537ee1ff94c26c5c76c6b8aa0f640620a22294d
+fig3_similarity_filter.csv,3,a,image,Post hoc maximum-cosine exclusion sensitivity.,governance-limited PD-DBS aggregate output,7eb13a511c4874eea56d61e0f5def7edb2efac61a974564f4812ffc563e02b9b
+fig3_pd_roi_summary.csv,3,b-c,image,Named-support and translated-support summary metrics.,governance-limited PD-DBS aggregate output,df6a5e722cb7e68e937e415c7a572b9ecf3e9c36e23cf98d4827bbb595de33fa
+fig3_pd_translated_supports.csv,3,b,image,All 64 translated-support AUROCs per named rectangle.,governance-limited PD-DBS aggregate output,8177f698a7f821c6dd78a33e619baa0413f9f37c6fc8429cfda36ef20525dcb2
+fig3_random_pixel_budgets.csv,3,d,image,Fifty random supports per pixel budget.,governance-limited PD-DBS aggregate output,b877e037de7f10eb906e33f91cb8350b225be1bf8ecc3c28a40e8327c63ea622
+fig3_distributed_controls.csv,3,d,image,"Outside-support, border, partition and pooling controls.",governance-limited PD-DBS aggregate output,8ca5d5ce88b79a8f86b2615e67780aea3bc7cb62d338626f0a17f8cff1df156b
+fig3_detector_conditions.csv,3,e,image,Detector geometry and exterior-support conditions.,governance-limited PD-DBS aggregate output,54a97cabf3c16698d6dfd0b50f1c7dbdd51e0755c7e104f04a7943d15b77275d
+fig3_detector_shuffle.csv,3,e,permutation,Mask-reassignment empirical distributions.,governance-limited PD-DBS aggregate output,91182e60e1984e78d6ff92aab4eeec880dcb0e4af2c19df38902a6dad5b79997
+fig4_cohort_flow.csv,4,a,video clip,Locked reconstruction and QC flow.,clean-room frozen-input verdict plus locked protocol,9f6700be7b1aaf2597cf77faf9f35b7d796280004e75522d804b8cbaa8245512
+fig4_youtubepd_roi_summary.csv,4,b,video clip,Primary logistic named-support location metrics.,clean-room frozen-input output,1c3d73368d084e84cf5c3a9dc5881112e9f11b28f8207403f1f4b64ecd6f1b80
+fig4_youtubepd_translated_supports.csv,4,b,video clip,All primary translated-support holdout and repeated-CV metrics.,clean-room frozen-input output,6d4889998366bc6bebbce45cd63e250deace9ce38255ee4f3a57d804f7581979
+fig4_rbf_roi_summary.csv,4,c,video clip,Post hoc RBF-SVM estimator sensitivity.,clean-room frozen-input output,042a659cef5488f9bfb2f88e315020bbf1ac7be25eff7abe6e48ad4bf07aa093
+fig4_competing_supports.csv,4,d,video clip,"Aligned-face, frame, context, metadata and arbitrary-partition controls.",clean-room frozen-input output,04d25ce7d8563c8bb2396945db44a454e40fb9a458b2f296da2c26f71035b3ee
+fig4_year_distribution.csv,4,e,video clip,Source-year counts by numerical diagnosis label.,clean-room frozen-input output,e3ff5d044a9cb3f474580dc1558e778cb81e5710c132a91a45162d71e6553fe0
+fig4_year_matched_controls.csv,4,e,matched video pair,Exploratory three-year-caliper grouped-CV controls.,clean-room frozen-input output,94a5f4ac8cb1e45ec80a6a428473bdea4e711ee778d80fb076321a476f06ec28
+fig4_collection_time_summary.csv,4,e,video clip or matched video pair,Year-only holdout and exploratory matched grouped-CV summaries.,clean-room frozen-input verdict,1ea06b7abd854def5290d97fbbb06c396a088d2161778895af1a78b7421bb211
+fig5_park_benchmark.csv,5,a,participant,Observed participant AUROC and training-label-shuffle reference.,clean-room PARK verdict,abce8bf50bb512f85565198413534dbd5989812e7fd5a8fdab96b9623bff08b9
+fig5_park_feature_groups.csv,5,b,participant,Predefined released feature-family sensitivities.,clean-room PARK output,6a1c3e9da661766c325f15ce00b55a6e3565d7ff259a8e4c0330779376058a35
+fig5_evidence_matrix.csv,5,c-d,resource,Experimental-unit and access boundaries across resources.,protocol and availability audit,40a7e3cf3040ab4b0419d0d52820a0ea511a0dba3bbc3469e2328a49ea4bed91
+extended_youtubepd_reconstruction_drift.csv,Extended Data,reconstruction drift,video clip,Frozen-input versus fresh-source reconstruction comparison.,clean-room reproduction audit,6a7159470727d64a3a675523fc28c2b3e4b6253b353b8eddc5fcf2b02f2c846a
+extended_youtubepd_common_cohort.csv,Extended Data,matched-ID drift,video clip,Same-ID frozen/fresh feature comparison.,clean-room reconstruction-drift audit,ccb95dcbfebf654be25c55b34e46da70aa254521fadfb21c95f333d7abb6eab3

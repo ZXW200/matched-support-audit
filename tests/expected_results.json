@@ -1,0 +1,45 @@
+{
+  "synthetic_detection_counts": {
+    "0.0": [2, 30],
+    "0.01": [1, 15],
+    "0.02": [4, 15],
+    "0.03": [8, 15],
+    "0.04": [12, 15],
+    "0.05": [15, 15],
+    "0.1": [15, 15],
+    "0.2": [15, 15],
+    "0.4": [15, 15]
+  },
+  "mechanism": {
+    "roi_localised.target_roi_auroc": 1.0,
+    "roi_localised.random_exact_q975": 0.9276438888888888,
+    "border_shortcut.target_roi_auroc": 0.5004972222222223,
+    "border_shortcut.border_auroc": 1.0,
+    "distributed_low_frequency.pool_8x8_auroc": 1.0,
+    "distributed_low_frequency.pool_1x1_auroc": 0.5205888888888889
+  },
+  "youtubepd": {
+    "primary_cohort_clips_before_qc": 112,
+    "clips_after_qc": 109,
+    "test_clips": 24,
+    "named_rois_passing_holdout_location_gate": 0,
+    "named_rois_passing_both_location_gates": 0,
+    "aligned_face_holdout_auroc": 0.965034965034965,
+    "whole_frame_holdout_auroc": 0.93006993006993,
+    "face_masked_context_holdout_auroc": 0.8601398601398602,
+    "metadata_only_holdout_auroc": 0.8741258741258742
+  },
+  "youtubepd_rbf": {
+    "full_face_holdout_auroc": 0.916083916083916,
+    "named_rois_passing_holdout_gate": 1,
+    "named_rois_passing_both_gates": 0
+  },
+  "park": {
+    "train_plus_dev_participants": 1245,
+    "test_participants": 116,
+    "participant_auroc": 0.8560357675111774,
+    "participant_auprc": 0.8186813462447392,
+    "participant_balanced_accuracy": 0.7970193740685544
+  }
+}
+

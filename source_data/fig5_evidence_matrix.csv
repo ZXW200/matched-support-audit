@@ -1,0 +1,4 @@
+resource,unit,participant_key,raw_pixels,location_test,shortcut_controls,publicly_executable,maximum_claim
+PD-DBS,image,no,"yes, restricted",yes,yes,no,image-level stress test
+YouTubePD,clip,no,URLs only,yes,yes,source-dependent,confounded clip-level audit
+PARK,participant,yes,no,no,label shuffle,yes,feature association

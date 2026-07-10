@@ -1,0 +1,74 @@
+[
+  {
+    "stem": "Figure1_MatchedSpatialReference",
+    "title": "A matched spatial reference separates regional claims",
+    "width_mm": 183.0,
+    "height_mm": 148.0,
+    "formats": {
+      "svg": "Figure1_MatchedSpatialReference.svg",
+      "pdf": "Figure1_MatchedSpatialReference.pdf",
+      "tiff": "Figure1_MatchedSpatialReference.tiff",
+      "png": "Figure1_MatchedSpatialReference.png"
+    }
+  },
+  {
+    "stem": "Figure2_SyntheticOperatingExperiments",
+    "title": "Operating experiments distinguish simulated mechanisms",
+    "width_mm": 183.0,
+    "height_mm": 132.0,
+    "formats": {
+      "svg": "Figure2_SyntheticOperatingExperiments.svg",
+      "pdf": "Figure2_SyntheticOperatingExperiments.pdf",
+      "tiff": "Figure2_SyntheticOperatingExperiments.tiff",
+      "png": "Figure2_SyntheticOperatingExperiments.png"
+    }
+  },
+  {
+    "stem": "Figure3_LegacyImageMatrixAudit",
+    "title": "A legacy image matrix fails to support named locations",
+    "width_mm": 183.0,
+    "height_mm": 176.0,
+    "formats": {
+      "svg": "Figure3_LegacyImageMatrixAudit.svg",
+      "pdf": "Figure3_LegacyImageMatrixAudit.pdf",
+      "tiff": "Figure3_LegacyImageMatrixAudit.tiff",
+      "png": "Figure3_LegacyImageMatrixAudit.png"
+    }
+  },
+  {
+    "stem": "Figure4_PublicVideoStressTest",
+    "title": "A public-video stress test returns the same primary location decision",
+    "width_mm": 183.0,
+    "height_mm": 184.0,
+    "formats": {
+      "svg": "Figure4_PublicVideoStressTest.svg",
+      "pdf": "Figure4_PublicVideoStressTest.pdf",
+      "tiff": "Figure4_PublicVideoStressTest.tiff",
+      "png": "Figure4_PublicVideoStressTest.png"
+    }
+  },
+  {
+    "stem": "Figure5_EvidenceBoundaries",
+    "title": "Experimental unit determines the permissible claim",
+    "width_mm": 183.0,
+    "height_mm": 143.0,
+    "formats": {
+      "svg": "Figure5_EvidenceBoundaries.svg",
+      "pdf": "Figure5_EvidenceBoundaries.pdf",
+      "tiff": "Figure5_EvidenceBoundaries.tiff",
+      "png": "Figure5_EvidenceBoundaries.png"
+    }
+  },
+  {
+    "stem": "ExtendedDataFigure1_ReconstructionDrift",
+    "title": "Fresh-source reconstruction changes prediction but not the location verdict",
+    "width_mm": 183.0,
+    "height_mm": 88.0,
+    "formats": {
+      "svg": "ExtendedDataFigure1_ReconstructionDrift.svg",
+      "pdf": "ExtendedDataFigure1_ReconstructionDrift.pdf",
+      "tiff": "ExtendedDataFigure1_ReconstructionDrift.tiff",
+      "png": "ExtendedDataFigure1_ReconstructionDrift.png"
+    }
+  }
+]

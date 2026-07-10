@@ -1,0 +1,3 @@
+condition,auroc,low,high,n_test_participants,n_test_class_1,n_test_class_0
+Observed all features,0.8560357675111774,0.7841952309985097,0.9186289120715351,116,55,61
+Training-label shuffle mean,0.5042473919523099,,0.6498882265275707,116,55,61
