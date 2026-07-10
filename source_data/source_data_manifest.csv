@@ -2,6 +2,7 @@ file,figure,panel,unit,description,source,sha256
 fig2_synthetic_operating_curve.csv,2,a-b,simulation repetition,"Detection counts, rates and Wilson intervals by injected effect.",clean-room synthetic combined verdict,d47be372c59d59412c8cbeb688a75a7d81fdde5cee44425108d68ee5ecace627
 fig2_mechanism_tasks.csv,2,c-d,synthetic task,"Known local, border, distributed and misplaced-support task metrics.",clean-room mechanism verdict,f73c7d727cf6b1efcccd131cb537ee1ff94c26c5c76c6b8aa0f640620a22294d
 fig3_similarity_filter.csv,3,a,image,Post hoc maximum-cosine exclusion sensitivity.,governance-limited PD-DBS aggregate output,7eb13a511c4874eea56d61e0f5def7edb2efac61a974564f4812ffc563e02b9b
+fig3_full_image_metrics.csv,3,"a,d",image,Primary full-image performance used as the Figure 3 reference.,governance-limited PD-DBS aggregate output,750e64beb3b03eec28bb53ae3698239947bcd05d23c4089545d6c7f4830f1d3e
 fig3_pd_roi_summary.csv,3,b-c,image,Named-support and translated-support summary metrics.,governance-limited PD-DBS aggregate output,df6a5e722cb7e68e937e415c7a572b9ecf3e9c36e23cf98d4827bbb595de33fa
 fig3_pd_translated_supports.csv,3,b,image,All 64 translated-support AUROCs per named rectangle.,governance-limited PD-DBS aggregate output,8177f698a7f821c6dd78a33e619baa0413f9f37c6fc8429cfda36ef20525dcb2
 fig3_random_pixel_budgets.csv,3,d,image,Fifty random supports per pixel budget.,governance-limited PD-DBS aggregate output,b877e037de7f10eb906e33f91cb8350b225be1bf8ecc3c28a40e8327c63ea622

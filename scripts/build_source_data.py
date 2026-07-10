@@ -96,6 +96,19 @@ def main() -> int:
         "Post hoc maximum-cosine exclusion sensitivity.",
         "governance-limited PD-DBS aggregate output",
     )
+    full_image = pd.read_csv(
+        pd_root / "data_qc/near_duplicate_sensitivity_metrics.csv"
+    )
+    full_image = full_image.loc[full_image["set"] == "full_test"].copy()
+    save(
+        "fig3_full_image_metrics.csv",
+        full_image,
+        "3",
+        "a,d",
+        "image",
+        "Primary full-image performance used as the Figure 3 reference.",
+        "governance-limited PD-DBS aggregate output",
+    )
     pd_roi = pd.read_csv(
         pd_root / "nmi_spatially_matched_audit/spatially_matched_roi_summary.csv"
     )

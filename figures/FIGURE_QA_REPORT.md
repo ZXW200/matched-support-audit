@@ -1,13 +1,13 @@
 # Publication Figure QA Report
 
 - Backend: Python/matplotlib/Pillow only
-- Result: **113/113 checks passed**
+- Result: **114/114 checks passed**
 - Visual inspection: performed on the Python-generated full-resolution PNG set and contact sheet.
 
 | Status | Check | Detail |
 |---|---|---|
-| PASS | Figure1_MatchedSpatialReference: svg exists | Figure1_MatchedSpatialReference.svg; 44008 bytes |
-| PASS | Figure1_MatchedSpatialReference: pdf exists | Figure1_MatchedSpatialReference.pdf; 57503 bytes |
+| PASS | Figure1_MatchedSpatialReference: svg exists | Figure1_MatchedSpatialReference.svg; 42967 bytes |
+| PASS | Figure1_MatchedSpatialReference: pdf exists | Figure1_MatchedSpatialReference.pdf; 57526 bytes |
 | PASS | Figure1_MatchedSpatialReference: tiff exists | Figure1_MatchedSpatialReference.tiff; 1450962 bytes |
 | PASS | Figure1_MatchedSpatialReference: png exists | Figure1_MatchedSpatialReference.png; 284415 bytes |
 | PASS | Figure1_MatchedSpatialReference: PNG dimensions | observed=(2161, 1748); expected=(2161, 1748) |
@@ -21,8 +21,8 @@
 | PASS | Figure1_MatchedSpatialReference: PDF searchable text | characters=1276 |
 | PASS | Figure1_MatchedSpatialReference: SVG editable text | text_elements=75; embedded_images=0 |
 | PASS | Figure1_MatchedSpatialReference: no private path in SVG | matched_patterns=[] |
-| PASS | Figure2_SyntheticOperatingExperiments: svg exists | Figure2_SyntheticOperatingExperiments.svg; 49475 bytes |
-| PASS | Figure2_SyntheticOperatingExperiments: pdf exists | Figure2_SyntheticOperatingExperiments.pdf; 62553 bytes |
+| PASS | Figure2_SyntheticOperatingExperiments: svg exists | Figure2_SyntheticOperatingExperiments.svg; 48340 bytes |
+| PASS | Figure2_SyntheticOperatingExperiments: pdf exists | Figure2_SyntheticOperatingExperiments.pdf; 62576 bytes |
 | PASS | Figure2_SyntheticOperatingExperiments: tiff exists | Figure2_SyntheticOperatingExperiments.tiff; 1601680 bytes |
 | PASS | Figure2_SyntheticOperatingExperiments: png exists | Figure2_SyntheticOperatingExperiments.png; 216836 bytes |
 | PASS | Figure2_SyntheticOperatingExperiments: PNG dimensions | observed=(2161, 1559); expected=(2161, 1559) |
@@ -36,23 +36,23 @@
 | PASS | Figure2_SyntheticOperatingExperiments: PDF searchable text | characters=927 |
 | PASS | Figure2_SyntheticOperatingExperiments: SVG editable text | text_elements=86; embedded_images=5 |
 | PASS | Figure2_SyntheticOperatingExperiments: no private path in SVG | matched_patterns=[] |
-| PASS | Figure3_LegacyImageMatrixAudit: svg exists | Figure3_LegacyImageMatrixAudit.svg; 171102 bytes |
-| PASS | Figure3_LegacyImageMatrixAudit: pdf exists | Figure3_LegacyImageMatrixAudit.pdf; 71249 bytes |
-| PASS | Figure3_LegacyImageMatrixAudit: tiff exists | Figure3_LegacyImageMatrixAudit.tiff; 1910760 bytes |
-| PASS | Figure3_LegacyImageMatrixAudit: png exists | Figure3_LegacyImageMatrixAudit.png; 448382 bytes |
+| PASS | Figure3_LegacyImageMatrixAudit: svg exists | Figure3_LegacyImageMatrixAudit.svg; 168059 bytes |
+| PASS | Figure3_LegacyImageMatrixAudit: pdf exists | Figure3_LegacyImageMatrixAudit.pdf; 71247 bytes |
+| PASS | Figure3_LegacyImageMatrixAudit: tiff exists | Figure3_LegacyImageMatrixAudit.tiff; 1905528 bytes |
+| PASS | Figure3_LegacyImageMatrixAudit: png exists | Figure3_LegacyImageMatrixAudit.png; 446308 bytes |
 | PASS | Figure3_LegacyImageMatrixAudit: PNG dimensions | observed=(2161, 2078); expected=(2161, 2079) |
-| PASS | Figure3_LegacyImageMatrixAudit: PNG nonblank | pixel_sd=32.34; nonwhite=0.062 |
+| PASS | Figure3_LegacyImageMatrixAudit: PNG nonblank | pixel_sd=32.31; nonwhite=0.062 |
 | PASS | Figure3_LegacyImageMatrixAudit: PNG resolution | dpi=(299.9994, 299.9994) |
 | PASS | Figure3_LegacyImageMatrixAudit: TIFF dimensions | observed=(4322, 4157); expected=(4323, 4157) |
 | PASS | Figure3_LegacyImageMatrixAudit: TIFF resolution | dpi=(600.0, 600.0) |
-| PASS | Figure3_LegacyImageMatrixAudit: TIFF nonblank | pixel_sd=33.35; nonwhite=0.059 |
+| PASS | Figure3_LegacyImageMatrixAudit: TIFF nonblank | pixel_sd=33.33; nonwhite=0.059 |
 | PASS | Figure3_LegacyImageMatrixAudit: PDF page count | pages=1 |
 | PASS | Figure3_LegacyImageMatrixAudit: PDF media box | observed=(518.74, 498.90) pt; expected=(518.74, 498.90) pt |
-| PASS | Figure3_LegacyImageMatrixAudit: PDF searchable text | characters=1590 |
-| PASS | Figure3_LegacyImageMatrixAudit: SVG editable text | text_elements=106; embedded_images=0 |
+| PASS | Figure3_LegacyImageMatrixAudit: PDF searchable text | characters=1579 |
+| PASS | Figure3_LegacyImageMatrixAudit: SVG editable text | text_elements=105; embedded_images=0 |
 | PASS | Figure3_LegacyImageMatrixAudit: no private path in SVG | matched_patterns=[] |
-| PASS | Figure4_PublicVideoStressTest: svg exists | Figure4_PublicVideoStressTest.svg; 81528 bytes |
-| PASS | Figure4_PublicVideoStressTest: pdf exists | Figure4_PublicVideoStressTest.pdf; 66452 bytes |
+| PASS | Figure4_PublicVideoStressTest: svg exists | Figure4_PublicVideoStressTest.svg; 79310 bytes |
+| PASS | Figure4_PublicVideoStressTest: pdf exists | Figure4_PublicVideoStressTest.pdf; 66475 bytes |
 | PASS | Figure4_PublicVideoStressTest: tiff exists | Figure4_PublicVideoStressTest.tiff; 1655608 bytes |
 | PASS | Figure4_PublicVideoStressTest: png exists | Figure4_PublicVideoStressTest.png; 304497 bytes |
 | PASS | Figure4_PublicVideoStressTest: PNG dimensions | observed=(2161, 2173); expected=(2161, 2173) |
@@ -66,8 +66,8 @@
 | PASS | Figure4_PublicVideoStressTest: PDF searchable text | characters=1485 |
 | PASS | Figure4_PublicVideoStressTest: SVG editable text | text_elements=104; embedded_images=0 |
 | PASS | Figure4_PublicVideoStressTest: no private path in SVG | matched_patterns=[] |
-| PASS | Figure5_EvidenceBoundaries: svg exists | Figure5_EvidenceBoundaries.svg; 44835 bytes |
-| PASS | Figure5_EvidenceBoundaries: pdf exists | Figure5_EvidenceBoundaries.pdf; 61011 bytes |
+| PASS | Figure5_EvidenceBoundaries: svg exists | Figure5_EvidenceBoundaries.svg; 43682 bytes |
+| PASS | Figure5_EvidenceBoundaries: pdf exists | Figure5_EvidenceBoundaries.pdf; 61034 bytes |
 | PASS | Figure5_EvidenceBoundaries: tiff exists | Figure5_EvidenceBoundaries.tiff; 1426116 bytes |
 | PASS | Figure5_EvidenceBoundaries: png exists | Figure5_EvidenceBoundaries.png; 244662 bytes |
 | PASS | Figure5_EvidenceBoundaries: PNG dimensions | observed=(2161, 1688); expected=(2161, 1689) |
@@ -81,8 +81,8 @@
 | PASS | Figure5_EvidenceBoundaries: PDF searchable text | characters=1153 |
 | PASS | Figure5_EvidenceBoundaries: SVG editable text | text_elements=78; embedded_images=0 |
 | PASS | Figure5_EvidenceBoundaries: no private path in SVG | matched_patterns=[] |
-| PASS | ExtendedDataFigure1_ReconstructionDrift: svg exists | ExtendedDataFigure1_ReconstructionDrift.svg; 32237 bytes |
-| PASS | ExtendedDataFigure1_ReconstructionDrift: pdf exists | ExtendedDataFigure1_ReconstructionDrift.pdf; 52609 bytes |
+| PASS | ExtendedDataFigure1_ReconstructionDrift: svg exists | ExtendedDataFigure1_ReconstructionDrift.svg; 31352 bytes |
+| PASS | ExtendedDataFigure1_ReconstructionDrift: pdf exists | ExtendedDataFigure1_ReconstructionDrift.pdf; 52632 bytes |
 | PASS | ExtendedDataFigure1_ReconstructionDrift: tiff exists | ExtendedDataFigure1_ReconstructionDrift.tiff; 1106902 bytes |
 | PASS | ExtendedDataFigure1_ReconstructionDrift: png exists | ExtendedDataFigure1_ReconstructionDrift.png; 127994 bytes |
 | PASS | ExtendedDataFigure1_ReconstructionDrift: PNG dimensions | observed=(2161, 1039); expected=(2161, 1039) |
@@ -99,6 +99,7 @@
 | PASS | source data: fig2_synthetic_operating_curve.csv | sha256=d47be372c59d59412c8cbeb688a75a7d81fdde5cee44425108d68ee5ecace627 |
 | PASS | source data: fig2_mechanism_tasks.csv | sha256=f73c7d727cf6b1efcccd131cb537ee1ff94c26c5c76c6b8aa0f640620a22294d |
 | PASS | source data: fig3_similarity_filter.csv | sha256=7eb13a511c4874eea56d61e0f5def7edb2efac61a974564f4812ffc563e02b9b |
+| PASS | source data: fig3_full_image_metrics.csv | sha256=750e64beb3b03eec28bb53ae3698239947bcd05d23c4089545d6c7f4830f1d3e |
 | PASS | source data: fig3_pd_roi_summary.csv | sha256=df6a5e722cb7e68e937e415c7a572b9ecf3e9c36e23cf98d4827bbb595de33fa |
 | PASS | source data: fig3_pd_translated_supports.csv | sha256=8177f698a7f821c6dd78a33e619baa0413f9f37c6fc8429cfda36ef20525dcb2 |
 | PASS | source data: fig3_random_pixel_budgets.csv | sha256=b877e037de7f10eb906e33f91cb8350b225be1bf8ecc3c28a40e8327c63ea622 |

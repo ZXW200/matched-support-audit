@@ -1,5 +1,7 @@
 # Matched-support audit
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21292743.svg)](https://doi.org/10.5281/zenodo.21292743)
+
 This repository contains the public, executable branches and aggregate source
 data for *Matched-support auditing tests anatomical specificity in facial
 artificial intelligence*.
@@ -83,7 +85,7 @@ bundled aggregate source-data tables:
 Each main figure is exported as editable SVG, PDF, 600-dpi TIFF and PNG preview.
 Quantitative panels map to CSV files under `source_data/`. Figure legends and
 statistical definitions are in `figures/FIGURE_LEGENDS.md`; the automated export
-audit is in `figures/FIGURE_QA_REPORT.md` (113/113 checks passed in the release
+audit is in `figures/FIGURE_QA_REPORT.md` (114/114 checks passed in the release
 environment).
 
 `scripts/build_source_data.py` is a maintainer-side aggregation script. It
@@ -96,6 +98,12 @@ The public branches were executed in a new Python 3.13 environment without
 system site packages. Independent verification passed 41/41 expected-result
 checks. The report, realized dependency set, fixed third-party manifest and
 fresh-source reconstruction sensitivity are under `reproduction/`.
+
+## Citation
+
+Wang, Z. *Matched-support auditing tests anatomical specificity in facial
+artificial intelligence*, version 1.0.1. Zenodo (2026).
+[https://doi.org/10.5281/zenodo.21292743](https://doi.org/10.5281/zenodo.21292743).
 
 ## Third-party resources
 

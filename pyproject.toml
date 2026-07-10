@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "matched-support-audit"
-version = "1.0.0"
+version = "1.0.1"
 description = "Matched-support auditing of regional predictive sufficiency"
 requires-python = ">=3.13,<3.14"
 dependencies = [

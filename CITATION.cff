@@ -6,13 +6,14 @@ authors:
   - family-names: Wang
     given-names: Zixu
     affiliation: Lancaster University
-version: 1.0.0
+version: 1.0.1
 date-released: 2026-07-10
+doi: 10.5281/zenodo.21292743
 repository-code: "https://github.com/ZXW200/matched-support-audit"
+url: "https://doi.org/10.5281/zenodo.21292743"
 keywords:
   - explainable artificial intelligence
   - shortcut learning
   - medical artificial intelligence
   - regional predictive sufficiency
   - Parkinson disease
-

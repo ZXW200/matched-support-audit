@@ -7,8 +7,10 @@ does not read restricted image matrices, reconstructed videos, or identifiers.
 from __future__ import annotations
 
 import argparse
+from datetime import datetime, timezone
 import json
 from pathlib import Path
+import re
 
 import matplotlib as mpl
 import matplotlib.pyplot as plt
@@ -78,6 +80,7 @@ def configure_matplotlib() -> None:
             "font.family": "sans-serif",
             "font.sans-serif": ["Arial", "Helvetica", "DejaVu Sans", "sans-serif"],
             "svg.fonttype": "none",
+            "svg.hashsalt": "matched-support-audit-v1.0.1",
             "pdf.fonttype": 42,
             "ps.fonttype": 42,
             "font.size": 7.0,
@@ -192,6 +195,22 @@ def forest_errorbar(
     )
 
 
+def canonicalize_svg_ids(path: Path) -> None:
+    """Replace backend-generated marker and clip IDs with stable ordered IDs."""
+    raw = path.read_text(encoding="utf-8")
+    generated = []
+    for match in re.finditer(r'\bid="([mp][0-9a-f]+)"', raw):
+        value = match.group(1)
+        if value not in generated:
+            generated.append(value)
+    for index, old in enumerate(generated, start=1):
+        new = f"{old[0]}stable{index:04d}"
+        raw = raw.replace(f'id="{old}"', f'id="{new}"')
+        raw = raw.replace(f"#{old}", f"#{new}")
+    raw = "\n".join(line.rstrip() for line in raw.splitlines()) + "\n"
+    path.write_text(raw, encoding="utf-8", newline="\n")
+
+
 def save_figure(
     fig: plt.Figure,
     output_dir: Path,
@@ -201,14 +220,26 @@ def save_figure(
 ) -> dict[str, object]:
     output_dir.mkdir(parents=True, exist_ok=True)
     fig.canvas.draw()
-    metadata = {"Title": title, "Author": "Zixu Wang", "Subject": "Matched-support audit"}
+    release_timestamp = datetime(2026, 7, 10, tzinfo=timezone.utc)
+    metadata = {
+        "Title": title,
+        "Author": "Zixu Wang",
+        "Subject": "Matched-support audit",
+        "CreationDate": release_timestamp,
+        "ModDate": release_timestamp,
+    }
     paths = {
         "svg": output_dir / f"{stem}.svg",
         "pdf": output_dir / f"{stem}.pdf",
         "tiff": output_dir / f"{stem}.tiff",
         "png": output_dir / f"{stem}.png",
     }
-    fig.savefig(paths["svg"], format="svg", metadata={"Title": title})
+    fig.savefig(
+        paths["svg"],
+        format="svg",
+        metadata={"Title": title, "Date": "2026-07-10"},
+    )
+    canonicalize_svg_ids(paths["svg"])
     fig.savefig(paths["pdf"], format="pdf", metadata=metadata)
     fig.savefig(
         paths["tiff"],
@@ -452,13 +483,14 @@ def make_figure_2(source_dir: Path, output_dir: Path) -> dict[str, object]:
 
 def make_figure_3(source_dir: Path, output_dir: Path) -> dict[str, object]:
     similarity = load_csv(source_dir, "fig3_similarity_filter.csv")
+    full_image = load_csv(source_dir, "fig3_full_image_metrics.csv")
     roi = load_csv(source_dir, "fig3_pd_roi_summary.csv").set_index("roi_name").loc[ROI_ORDER].reset_index()
     supports = load_csv(source_dir, "fig3_pd_translated_supports.csv")
     random_budget = load_csv(source_dir, "fig3_random_pixel_budgets.csv")
     controls = load_csv(source_dir, "fig3_distributed_controls.csv")
     detector = load_csv(source_dir, "fig3_detector_conditions.csv")
     shuffle = load_csv(source_dir, "fig3_detector_shuffle.csv")
-    full_auroc = float(detector.loc[detector["condition"] == "full_image", "ensemble_auroc"].iloc[0])
+    full_auroc = float(full_image.loc[full_image["set"] == "full_test", "auroc"].iloc[0])
 
     height_mm = 176.0
     fig = new_figure(height_mm, constrained=False)
@@ -544,7 +576,6 @@ def make_figure_3(source_dir: Path, output_dir: Path) -> dict[str, object]:
     ax.invert_yaxis()
     ax.set_xlim(0.47, 1.005)
     ax.set_xlabel("AUROC")
-    ax.text(full_auroc - 0.005, 0.98, "full image", transform=ax.get_xaxis_transform(), ha="right", va="top", fontsize=4.9, color=GREY_DARK)
     add_reference_grid(ax, "x")
     unit_note(ax, "Random-support bars: min-max across 50 draws; other controls: point estimates.", y=-0.25)
 

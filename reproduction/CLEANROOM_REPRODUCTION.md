@@ -26,6 +26,11 @@ The checks cover:
   competing supports and post hoc RBF-SVM sensitivity;
 - the PARK participant split and primary participant-level metrics.
 
+The publication-figure renderer uses fixed metadata and canonical SVG object
+identifiers. Two consecutive render-and-QA passes produced byte-identical
+hashes for all 29 files in the figure bundle; the final format and source-data
+audit passed 114/114 checks.
+
 ## Issues exposed by the clean-room run
 
 The first import attempt showed that the NumPy MLP module imported two data
